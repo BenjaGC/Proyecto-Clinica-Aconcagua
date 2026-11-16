@@ -1,0 +1,145 @@
+<mxfile host="Electron" scale="1" border="0">
+  <diagram name="Página-1" id="jNCp5jTPJ6i50Ouoi_bC">
+    <mxGraphModel dx="1488" dy="2090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-22" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f9f7ed;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="740" width="740" x="150" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-84" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);strokeWidth=2;endArrow=none;endFill=0;" target="SAfyZ9AyKIvLJC9o6J0l-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-86" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);strokeWidth=2;endArrow=none;endFill=0;" target="SAfyZ9AyKIvLJC9o6J0l-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-88" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);strokeWidth=2;curved=0;endArrow=none;endFill=0;" target="SAfyZ9AyKIvLJC9o6J0l-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-81" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);strokeWidth=2;endArrow=none;endFill=0;" target="SAfyZ9AyKIvLJC9o6J0l-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-82" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);strokeWidth=2;endArrow=none;endFill=0;" target="SAfyZ9AyKIvLJC9o6J0l-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="155" />
+              <mxPoint x="900" y="130" />
+              <mxPoint x="810" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="60" width="30" x="947.5" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-83" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);strokeWidth=2;endArrow=none;endFill=0;" target="SAfyZ9AyKIvLJC9o6J0l-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="510" />
+              <mxPoint x="890" y="550" />
+              <mxPoint x="805" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="60" width="30" x="960" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-32" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f9f7ed;strokeColor=#36393d;strokeWidth=2;endArrow=none;endFill=0;" target="SAfyZ9AyKIvLJC9o6J0l-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-73" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);strokeWidth=2;endArrow=none;endFill=0;" target="SAfyZ9AyKIvLJC9o6J0l-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="335" />
+              <mxPoint x="120" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-5" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Usuario&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="55" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-7" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="&lt;font color=&quot;#000000&quot;&gt;Sistema&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="932.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-8" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="&lt;font color=&quot;#000000&quot;&gt;Administrador&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="85" x="932.5" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-54" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);dashed=1;strokeWidth=2;" target="SAfyZ9AyKIvLJC9o6J0l-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Iniciando sesion y redirigiendo al portal cliente&lt;div&gt;CU-01&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="220" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font&gt;Cerrando sesion activa&lt;/font&gt;&lt;div&gt;&lt;font&gt;CU-02&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="216.57" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font face=&quot;Helvetica&quot;&gt;Solicitando recuperacion de contraseña&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;CU-03&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="211.57" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-45" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=light-dark(#000000,#000000);strokeWidth=2;" target="SAfyZ9AyKIvLJC9o6J0l-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Registrando cuenta nueva&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;CU-04&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="178.43" x="211.57" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-43" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f9f7ed;strokeColor=#36393d;dashed=1;strokeWidth=2;" target="SAfyZ9AyKIvLJC9o6J0l-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Cambiando contraseña de acceso al portal&lt;br&gt;&lt;div&gt;&lt;font&gt;CU-10&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="166.87" x="216.57" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Validando requisitos de complejidad de contraseña&lt;br&gt;&lt;div&gt;&lt;font&gt;CU-11&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="530" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-39" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Bloqueado IP por intentos fallidos de inicio de sesion&lt;br&gt;&lt;div&gt;&lt;font&gt;CU-05&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="570" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Revisando historial de IPs bloqueada por intentos fallidos&lt;br&gt;&lt;div&gt;&lt;font&gt;CU-06&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="720" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-44" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="&lt;pre style=&quot;font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: 22px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; white-space: pre-wrap; word-break: break-all; padding: 16px; text-align: start; margin: 0px !important;&quot;&gt;&lt;span class=&quot;token label property&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="445" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-46" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="&lt;pre style=&quot;font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: 22px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; white-space: pre-wrap; word-break: break-all; padding: 16px; text-align: start; margin: 0px !important;&quot;&gt;&lt;pre style=&quot;font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: 22px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; white-space: pre-wrap; word-break: break-all; padding: 16px; margin: 0px !important;&quot;&gt;&lt;span class=&quot;token label property&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="405" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-49" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000000);dashed=1;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-50" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="&lt;pre style=&quot;font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: 22px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; white-space: pre-wrap; word-break: break-all; padding: 16px; text-align: start; margin: 0px !important;&quot;&gt;&lt;span class=&quot;token label property&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="405" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-52" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.031;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=light-dark(#000000,#000000);strokeWidth=2;" target="SAfyZ9AyKIvLJC9o6J0l-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-53" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="&lt;pre style=&quot;font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: 22px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; white-space: pre-wrap; word-break: break-all; padding: 16px; text-align: start; margin: 0px !important;&quot;&gt;&lt;pre style=&quot;font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 13px; line-height: 22px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; white-space: pre-wrap; word-break: break-all; padding: 16px; margin: 0px !important;&quot;&gt;&lt;span class=&quot;token label property&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="360" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-55" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="&lt;pre style=&quot;font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; line-height: 22px; font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; overflow: auto; white-space: pre-wrap; word-break: break-all; padding: 16px; text-align: start; margin: 0px !important;&quot;&gt;&lt;span class=&quot;token label property&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="405" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2 style=&quot;font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 22px; line-height: 32px; font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; margin: 32px 0px 16px; color: rgb(249, 250, 251); text-align: start; background-color: rgb(21, 21, 23);&quot;&gt;&lt;span class=&quot;&quot;&gt;1. AUTENTICACIÓN Y SEGURIDAD&lt;/span&gt;&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="400" x="350" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2 style=&quot;font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 22px; line-height: 32px; font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; margin: 32px 0px 16px; color: rgb(249, 250, 251); text-align: start; background-color: rgb(21, 21, 23);&quot;&gt;Sistema de Tickets&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="416.56" x="333.44" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Cerrando sesion automaticamente por inactividad&lt;br&gt;&lt;div&gt;&lt;font&gt;CU-12&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="730" y="165" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

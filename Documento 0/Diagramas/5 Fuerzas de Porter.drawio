@@ -1,0 +1,52 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="4eyeeAcm36tSVifHW_Yz">
+    <mxGraphModel dx="1178" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#10739e;fillColor=#b1ddf0;" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="190" x="280" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;Rivalidad entre competidores&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;&lt;p data-path-to-node=&quot;2&quot; style=&quot;&quot;&gt;La rivalidad interna es &lt;span data-path-to-node=&quot;2&quot; data-index-in-node=&quot;73&quot; style=&quot;&quot;&gt;baja&lt;/span&gt;. Al ser un desarrollo propio, no existen plataformas compitiendo. El desafío es superar la rapidez del actual método manual.&lt;/p&gt;&lt;p data-path-to-node=&quot;3&quot; style=&quot;&quot;&gt;&lt;/p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="300" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-6" parent="1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=32.5;rotation=-90;fillColor=#fad7ac;strokeColor=#b46504;" value="" vertex="1">
+          <mxGeometry height="50" width="65" x="340" y="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;" value="" vertex="1">
+          <mxGeometry height="165" width="165" x="290" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;Amenaza de nuevos competidores&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;La amenaza de nuevos competidores es &lt;span data-path-to-node=&quot;3&quot; data-index-in-node=&quot;89&quot;&gt;baja&lt;/span&gt;. Es poco probable adquirir un software comercial debido a los altos costos y la difícil adaptación médica.&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="135" x="305" y="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-9" parent="1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=32.5;rotation=90;fillColor=#ffff88;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="50" width="65" x="340" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-10" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffff88;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="165" width="165" x="290" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Ameneza de productos sustituto&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;s&lt;/span&gt;&lt;/b&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;La amenaza de productos sustitutos es &lt;/span&gt;&lt;span data-path-to-node=&quot;5&quot; data-index-in-node=&quot;91&quot; style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;alta&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;. Existe un gran riesgo de que el personal siga utilizando mensajería o llamadas para pedir soporte técnico.&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="158.75" x="293.13" y="627.5" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-15" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cdeb8b;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="165" width="165" x="20" y="292.5" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-16" parent="1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=32.5;rotation=-180;fillColor=#cdeb8b;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="50" width="65" x="200" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Amenaza de nuevos proveedores&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;El poder de los proveedores es &lt;span data-path-to-node=&quot;4&quot; data-index-in-node=&quot;93&quot;&gt;medio&lt;/span&gt;. La clínica depende de empresas externas para la nube y red, obligando a tener una infraestructura robusta.&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="136.25" x="30" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-18" parent="1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=32.5;rotation=0;fillColor=#ffcccc;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="50" width="65" x="480" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-19" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffcccc;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="165" width="165" x="560" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="G3OESzG9HYn3H5lSQPoY-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Amenaza de productos sustitutos&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;La amenaza de productos sustitutos es &lt;span data-path-to-node=&quot;5&quot; data-index-in-node=&quot;91&quot;&gt;alta&lt;/span&gt;. Existe un gran riesgo de que el personal siga utilizando mensajería o llamadas para pedir soporte técnico.&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="136.5" x="574.25" y="357.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

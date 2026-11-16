@@ -1,0 +1,492 @@
+<mxfile host="Electron">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="1514" dy="1275" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="&lt;h4&gt;CU-68 – Flujo principal&lt;/h4&gt;" vertex="1">
+          <mxGeometry height="30" width="723" x="35" y="-39" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_a" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="59" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_a" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74" y="148" as="sourcePoint" />
+            <mxPoint x="74" y="506.77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Configuracion" vertex="1">
+          <mxGeometry height="40" width="142" x="420" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_v" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="491" y="114" as="sourcePoint" />
+            <mxPoint x="491" y="503.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_UsuarioController" vertex="1">
+          <mxGeometry height="40" width="155" x="861" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_s" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="937" y="111" as="sourcePoint" />
+            <mxPoint x="936.76" y="492.35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1227" y="69" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_a" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="319" width="10" x="69" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="307" width="10" x="486" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="117" width="10" x="932" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="77" width="10" x="1306" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_m0" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.003;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;1. Accede a la sección de configuración de perfil&lt;/code&gt;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="-0.0003" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="80.41000000000008" y="186.72699999999998" as="sourcePoint" />
+            <mxPoint x="486.03" y="186.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_m1" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.17;exitY=0.138;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.06;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="0.0035" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="496.0000000000003" y="353.44199999999995" as="sourcePoint" />
+            <mxPoint x="929.7" y="351.9990000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-115" connectable="0" parent="d0_m1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6. PATCH /api/users/preferences { themeMode: &#39;dark&#39; }" vertex="1">
+          <mxGeometry relative="1" x="-0.1812" y="3" as="geometry">
+            <mxPoint x="38" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-134" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="&lt;b&gt;&lt;span style=&quot;font-size:9.0pt;line-height:115%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Arial;mso-ansi-language:&lt;br/&gt;ES-CL;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;CU-68 – Excepción 1&lt;/span&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="723" x="182" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-135" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="&lt;b&gt;&lt;span style=&quot;font-size:9.0pt;line-height:115%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:&lt;br/&gt;minor-latin;mso-ansi-language:ES-CL;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot;&gt;CU-68 – Excepción 2&lt;/span&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="452" x="2070" y="-37" as="geometry" />
+        </mxCell>
+        <mxCell id="LSGTz4Vfso89_mCbXE9f-103" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.015;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" target="d0_bar_db" value="">
+          <mxGeometry relative="1" x="0.1898" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="943.0799999999999" y="369.4950000000001" as="sourcePoint" />
+            <mxPoint x="1443.7499999999995" y="368.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSGTz4Vfso89_mCbXE9f-104" connectable="0" parent="LSGTz4Vfso89_mCbXE9f-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7. UPDATE user_preference SET theme_mode = &#39;dark&#39;, updated_at =&amp;nbsp;&lt;div&gt;NOW() WHERE user_id = 15;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0283" y="3" as="geometry">
+            <mxPoint x="6" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSGTz4Vfso89_mCbXE9f-106" edge="1" parent="1" source="d0_bar_db" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.039;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Confirma actualización de registro de preferencia">
+          <mxGeometry relative="1" x="0.0036" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1586.7399999999998" y="421.0150000000001" as="sourcePoint" />
+            <mxPoint x="943.55" y="424.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_ll_db" edge="1" parent="1" source="d0_db" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1311" y="109" as="sourcePoint" />
+            <mxPoint x="1311" y="501.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-2" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.094;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;" value="2. Renderiza panel de configuración con switch de accesibilidad visual">
+          <mxGeometry relative="1" x="-0.0028" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="486.0600000000002" y="216.0049999999999" as="sourcePoint" />
+            <mxPoint x="81" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-10" edge="1" parent="1" source="d0_bar_s" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.908;entryY=0.908;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.011;exitY=0.792;exitDx=0;exitDy=0;exitPerimeter=0;" target="d0_bar_v" value="9. 200 OK { success: true, themeMode: &#39;dark&#39;, message:&amp;nbsp;&lt;div&gt;&quot;Preferencia de accesibilidad sincronizada correctamente&quot; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0035" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="933.3300000000004" y="440.4570000000001" as="sourcePoint" />
+            <mxPoint x="496.96000000000004" y="444.17599999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-76" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="&lt;b&gt;&lt;span style=&quot;font-size:9.0pt;line-height:115%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Arial;mso-ansi-language:&lt;br/&gt;ES-CL;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;CU-68 – Excepción 3&lt;/span&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="723" x="2153" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-112" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="4. Inyecta variables CSS:&amp;nbsp;&lt;div&gt;document.documentElement.classList.add(&#39;dark&#39;)&amp;nbsp;&lt;/div&gt;&lt;div&gt;y aplica esquema de colores a la interfaz&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1803" y="6" as="geometry">
+            <mxPoint x="4" y="-2" as="offset" />
+            <Array as="points">
+              <mxPoint x="547" y="262" />
+              <mxPoint x="547" y="284" />
+            </Array>
+            <mxPoint x="497" y="262" as="sourcePoint" />
+            <mxPoint x="497" y="284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-1" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.003;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;3. Cambia switch de modo visual a &quot;Oscuro&quot;&lt;/code&gt;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="80.00000000000009" y="250.46699999999998" as="sourcePoint" />
+            <mxPoint x="485.61999999999995" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-2" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Guarda preferencia en almacenamiento local:&amp;nbsp;&lt;div&gt;localStorage.setItem(&#39;theme&#39;, &#39;dark&#39;)&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1803" y="6" as="geometry">
+            <mxPoint x="4" y="-2" as="offset" />
+            <Array as="points">
+              <mxPoint x="546" y="305" />
+              <mxPoint x="546" y="327" />
+            </Array>
+            <mxPoint x="496" y="305" as="sourcePoint" />
+            <mxPoint x="496" y="327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-3" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.094;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.027;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" target="d0_bar_a" value="10. Visualiza la plataforma con el nuevo esquema&lt;div&gt;&amp;nbsp;de colores oscuro activo y persistido&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0069" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="486.0600000000002" y="455.0049999999999" as="sourcePoint" />
+            <mxPoint x="81" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="52" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-5" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="67" y="785" as="sourcePoint" />
+            <mxPoint x="67" y="1143.77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Configuracion" vertex="1">
+          <mxGeometry height="40" width="142" x="413" y="711" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="484" y="751" as="sourcePoint" />
+            <mxPoint x="484" y="1140.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_UsuarioController" vertex="1">
+          <mxGeometry height="40" width="155" x="854" y="707" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="748" as="sourcePoint" />
+            <mxPoint x="929.76" y="1129.35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1284" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="266" width="10" x="62" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="260" width="10" x="479" y="793" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="925" y="822" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="77" width="10" x="1363" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-15" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.003;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;1. Hace clic en &quot;Configuración&quot; para gestionar sus preferencias&lt;/code&gt;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="0.0009" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="73.41000000000008" y="823.727" as="sourcePoint" />
+            <mxPoint x="479.03" y="823.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-18" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.4;exitY=0.12;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.015;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="0.1898" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="939.9999999999998" y="854.8800000000001" as="sourcePoint" />
+            <mxPoint x="1364.15" y="854.546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-19" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. SELECT theme_mode, font_scale FROM user_preference WHERE user_id = 15;" vertex="1">
+          <mxGeometry relative="1" x="-0.0283" y="3" as="geometry">
+            <mxPoint x="6" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-20" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.1;exitY=0.823;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;" value="4. Error: ETIMEDOUT / PoolConnectionError (Fallo al consultar base de datos)">
+          <mxGeometry relative="1" x="0.0036" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1363" y="910.3709999999999" as="sourcePoint" />
+            <mxPoint x="936" y="911.8720000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-21" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-10" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1368" y="745" as="sourcePoint" />
+            <mxPoint x="1368" y="1137.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-24" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Captura error interno: falla lectura de configuración de usuario">
+          <mxGeometry relative="1" x="-0.9344" y="6" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="987" y="946" />
+              <mxPoint x="987" y="968" />
+            </Array>
+            <mxPoint x="937" y="946" as="sourcePoint" />
+            <mxPoint x="937" y="968" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-25" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.033;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;2. GET /api/users/preferences&lt;/code&gt;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="489.0000000000001" y="835.467" as="sourcePoint" />
+            <mxPoint x="924.3299999999999" y="836.796" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-27" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.094;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.027;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" value="8. Despliega aviso en pantalla: &quot;Error al cargar la sección de configuración.&lt;div&gt;&amp;nbsp;Por favor, compruebe su conexión y presione &#39;Reintentar&#39;.&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0069" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="479.7900000000002" y="1044.995" as="sourcePoint" />
+            <mxPoint x="73.00000000000021" y="1045.0399999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-28" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.3;exitY=0.592;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.027;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" value="6. 500 Internal Server Error { success: false, error:&lt;div&gt;&amp;nbsp;&quot;CONFIG_LOAD_FAILED&quot;, message:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;No fue posible cargar la configuración del usuario&quot; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0507" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="921" y="984.2079999999999" as="sourcePoint" />
+            <mxPoint x="489" y="985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-29" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Alpine.js detiene el loading, oculta formulario&amp;nbsp;&lt;div&gt;de ajustes y activa vista de fallo con botón de reintento&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1803" y="4" as="geometry">
+            <mxPoint x="2" as="offset" />
+            <Array as="points">
+              <mxPoint x="540" y="1006" />
+              <mxPoint x="540" y="1028" />
+            </Array>
+            <mxPoint x="490" y="1006" as="sourcePoint" />
+            <mxPoint x="490" y="1028" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-33" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="1988" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-34" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2003" y="159" as="sourcePoint" />
+            <mxPoint x="2003" y="517.77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Configuracion" vertex="1">
+          <mxGeometry height="40" width="142" x="2349" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-36" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2420" y="125" as="sourcePoint" />
+            <mxPoint x="2420" y="514.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_UsuarioController" vertex="1">
+          <mxGeometry height="40" width="155" x="2790" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-38" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2866" y="122" as="sourcePoint" />
+            <mxPoint x="2865.76" y="503.3499999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="2951" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="266" width="10" x="1998" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="260" width="10" x="2415" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-44" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.003;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;1. Cambia switch de modo visual a &quot;Oscuro&quot;&lt;/code&gt;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="0.0009" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2009.41" y="197.72699999999998" as="sourcePoint" />
+            <mxPoint x="2415.0299999999997" y="197.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-48" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-39" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3035" y="121" as="sourcePoint" />
+            <mxPoint x="3035" y="513.1300000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-52" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.094;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.027;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" value="6. Despliega aviso en interfaz: &quot;Error al cargar los estilos del tema oscuro.&lt;div&gt;&amp;nbsp;Se ha restablecido el modo claro por defecto.&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0069" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2415.79" y="418.9949999999999" as="sourcePoint" />
+            <mxPoint x="2009.0000000000002" y="419.03999999999974" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-54" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="2. Intenta inyección de hoja de estilos:&amp;nbsp;&lt;div&gt;loadStylesheet(&#39;/css/themes/dark.css&#39;) / inyecta variables CSS&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1803" y="4" as="geometry">
+            <mxPoint x="2" as="offset" />
+            <Array as="points">
+              <mxPoint x="2475" y="210" />
+              <mxPoint x="2475" y="232" />
+            </Array>
+            <mxPoint x="2425" y="210" as="sourcePoint" />
+            <mxPoint x="2425" y="232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-55" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="3. Dispara excepción:&lt;div&gt;&amp;nbsp;Error al cargar recurso CSS (NetworkError / CSP violation / Link onerror)&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1803" y="4" as="geometry">
+            <mxPoint x="2" as="offset" />
+            <Array as="points">
+              <mxPoint x="2475" y="252" />
+              <mxPoint x="2475" y="274" />
+            </Array>
+            <mxPoint x="2425" y="252" as="sourcePoint" />
+            <mxPoint x="2425" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-56" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="4. Revierte cambios: document.documentElement.classList.remove(&#39;dark&#39;)&lt;div&gt;&amp;nbsp;y restaura variables de modo claro por defecto&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1803" y="4" as="geometry">
+            <mxPoint x="2" as="offset" />
+            <Array as="points">
+              <mxPoint x="2475" y="302" />
+              <mxPoint x="2475" y="324" />
+            </Array>
+            <mxPoint x="2425" y="302" as="sourcePoint" />
+            <mxPoint x="2425" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-57" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Restablece switch visual en interfaz al estado&amp;nbsp;&lt;div&gt;&quot;Claro&quot; y cancela sincronización con API&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1803" y="4" as="geometry">
+            <mxPoint x="2" as="offset" />
+            <Array as="points">
+              <mxPoint x="2475" y="347" />
+              <mxPoint x="2475" y="369" />
+            </Array>
+            <mxPoint x="2425" y="347" as="sourcePoint" />
+            <mxPoint x="2425" y="369" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-74" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="1970" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-75" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1985" y="819" as="sourcePoint" />
+            <mxPoint x="1985" y="1177.77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Configuracion" vertex="1">
+          <mxGeometry height="40" width="142" x="2331" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-77" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2402" y="785" as="sourcePoint" />
+            <mxPoint x="2402" y="1174.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_UsuarioController" vertex="1">
+          <mxGeometry height="40" width="155" x="2772" y="741" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-79" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2848" y="782" as="sourcePoint" />
+            <mxPoint x="2847.76" y="1163.35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="3202" y="739" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="266" width="10" x="1980" y="823" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="260" width="10" x="2397" y="827" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="2843" y="918" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="62" width="10" x="3281" y="949" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-85" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.003;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;1. Cambia switch de modo visual a &quot;Oscuro&quot;&lt;/code&gt;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="0.0009" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1991.4099999999999" y="857.727" as="sourcePoint" />
+            <mxPoint x="2397.0299999999997" y="857.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-86" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.4;exitY=0.12;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.015;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="0.1898" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2854" y="957.3300000000002" as="sourcePoint" />
+            <mxPoint x="3278.15" y="956.9960000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-87" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-86" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4. UPDATE user_preference SET theme_mode =&amp;nbsp;&lt;div&gt;&#39;dark&#39;, updated_at = NOW() WHERE user_id = 15;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0283" y="3" as="geometry">
+            <mxPoint x="6" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-88" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.1;exitY=0.823;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. Error: ETIMEDOUT / LockWaitTimeout (Fallo de escritura en base de datos)">
+          <mxGeometry relative="1" x="0.0036" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3280" y="1003.0009999999999" as="sourcePoint" />
+            <mxPoint x="2853" y="1004.5020000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-89" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-80" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3286" y="779" as="sourcePoint" />
+            <mxPoint x="3286" y="1171.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-91" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Alpine.js mantiene el tema activo solo en memoria volátil de sesión&amp;nbsp;&lt;div&gt;(sessionStorage) sin persistencia definitiva&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1803" y="-2" as="geometry">
+            <mxPoint x="2" y="2" as="offset" />
+            <Array as="points">
+              <mxPoint x="2457" y="1036" />
+              <mxPoint x="2457" y="1058" />
+            </Array>
+            <mxPoint x="2407" y="1036" as="sourcePoint" />
+            <mxPoint x="2407" y="1058" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-92" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.033;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;3. PATCH /api/users/preferences { themeMode: &#39;dark&#39; }&lt;/code&gt;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="0.0167" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2408" y="929.9969999999998" as="sourcePoint" />
+            <mxPoint x="2843.33" y="931.326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-93" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.094;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.027;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" value="8. Despliega aviso en interfaz: &quot;No se pudo guardar su preferencia.&amp;nbsp;&lt;div&gt;El modo seleccionado se mantendrá únicamente durante la sesión actual y&amp;nbsp;&lt;/div&gt;&lt;div&gt;no se conservará al volver a ingresar.&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0069" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2397.79" y="1078.995" as="sourcePoint" />
+            <mxPoint x="1991" y="1079.0399999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-94" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-83" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.22;exitY=0.924;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. 500 Internal Server Error { success: false, error: &quot;PREFERENCE_SAVE_FAILED&quot;,&lt;div&gt;&amp;nbsp;message: &quot;No fue posible persistir la preferencia en la base de datos&quot; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0016" y="-6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2839" y="1018.2079999999999" as="sourcePoint" />
+            <mxPoint x="2411.9" y="1019" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-95" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="2. document.documentElement.classList.add(&#39;dark&#39;)&amp;nbsp;&lt;div&gt;-&amp;gt; Aplica variables CSS en DOM para la sesión en curso&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1803" y="4" as="geometry">
+            <mxPoint x="2" as="offset" />
+            <Array as="points">
+              <mxPoint x="2457" y="872" />
+              <mxPoint x="2457" y="894" />
+            </Array>
+            <mxPoint x="2407" y="872" as="sourcePoint" />
+            <mxPoint x="2407" y="894" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,85 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="OMyLIjmfiqnJW49B6w7N">
+    <mxGraphModel dx="1355" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\n\nactor \&quot;Sistema\&quot; as Sistema\nactor \&quot;Usuario\&quot; as Usuario\n\nrectangle \&quot;Módulo de Seguridad y Autenticación\&quot; {\n  usecase \&quot;CU-70: Detectando intentos de acceso no autorizados\&quot; as CU70\n  usecase \&quot;E-1: Gestionando el usuario inicia sesión correctamente antes de llegar al umbral\&quot; as E1\n  usecase \&quot;E-2: Gestionando el usuario es administrador\&quot; as E2\n  usecase \&quot;E-3: Gestionando error al enviar el correo de alerta\&quot; as E3\n}\n\nSistema --&gt; CU70\nUsuario --&gt; CU70\n\nE1 .up.&gt; CU70 : &lt;&lt;extend&gt;&gt;\nE2 .up.&gt; CU70 : &lt;&lt;extend&gt;&gt;\nE3 .up.&gt; CU70 : &lt;&lt;extend&gt;&gt;\n\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="HedPLyCPNf4U_Nrpg3Mf-34">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Módulo de Seguridad y Autenticación" plantUmlId="rect_0" plantUmlBaseStyle="swimlane;collapsible=0;startSize=26;fillColor=none;strokeColor=#181818;fontColor=#000000;fontSize=13;fontStyle=1;whiteSpace=wrap;" plantUmlBaseValue="Módulo de Seguridad y Autenticación" id="HedPLyCPNf4U_Nrpg3Mf-35">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-34" style="swimlane;collapsible=0;startSize=26;fillColor=none;strokeColor=#181818;fontColor=#000000;fontSize=13;fontStyle=1;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="413" width="1026" x="120" y="110" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="E-1: Gestionando el usuario inicia sesión correctamente antes de llegar al umbral" plantUmlId="uc_1" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="E-1: Gestionando el usuario inicia sesión correctamente antes de llegar al umbral" id="HedPLyCPNf4U_Nrpg3Mf-36">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-35" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="109" width="480" x="530" y="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="E-2: Gestionando el usuario es administrador" plantUmlId="uc_2" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="E-2: Gestionando el usuario es administrador" id="HedPLyCPNf4U_Nrpg3Mf-37">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-35" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="69" width="321" x="620" y="186" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="E-3: Gestionando error al enviar el correo de alerta" plantUmlId="uc_3" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="E-3: Gestionando error al enviar el correo de alerta" id="HedPLyCPNf4U_Nrpg3Mf-38">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-35" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="79" width="370" x="571" y="310" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CU-70: Detectando intentos de acceso no autorizados" plantUmlId="uc_4" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="CU-70: Detectando intentos de acceso no autorizados" id="HedPLyCPNf4U_Nrpg3Mf-39">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-35" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="91" width="321" x="60" y="170" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_11" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="HedPLyCPNf4U_Nrpg3Mf-46">
+          <mxCell edge="1" parent="HedPLyCPNf4U_Nrpg3Mf-35" source="HedPLyCPNf4U_Nrpg3Mf-36" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="HedPLyCPNf4U_Nrpg3Mf-39">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_12" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="HedPLyCPNf4U_Nrpg3Mf-47">
+          <mxCell edge="1" parent="HedPLyCPNf4U_Nrpg3Mf-35" source="HedPLyCPNf4U_Nrpg3Mf-37" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="HedPLyCPNf4U_Nrpg3Mf-39">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_13" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="HedPLyCPNf4U_Nrpg3Mf-48">
+          <mxCell edge="1" parent="HedPLyCPNf4U_Nrpg3Mf-35" source="HedPLyCPNf4U_Nrpg3Mf-38" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="HedPLyCPNf4U_Nrpg3Mf-39">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="actor_5" plantUmlBaseStyle="shape=umlActor;html=1;fillColor=#F1F1F1;strokeColor=#181818;fontColor=#000000;fontSize=14;" plantUmlBaseValue="" id="HedPLyCPNf4U_Nrpg3Mf-40">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-34" style="shape=umlActor;html=1;fillColor=#F1F1F1;strokeColor=#181818;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="60" width="40" x="31" y="250" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Sistema" plantUmlId="actorlbl_6" plantUmlBaseStyle="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Sistema" id="HedPLyCPNf4U_Nrpg3Mf-41">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-34" style="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="17" width="62" x="20" y="312" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="actor_7" plantUmlBaseStyle="shape=umlActor;html=1;fillColor=#F1F1F1;strokeColor=#181818;fontColor=#000000;fontSize=14;" plantUmlBaseValue="" id="HedPLyCPNf4U_Nrpg3Mf-42">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-34" style="shape=umlActor;html=1;fillColor=#F1F1F1;strokeColor=#181818;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="60" width="40" x="31" y="341" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Usuario" plantUmlId="actorlbl_8" plantUmlBaseStyle="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Usuario" id="HedPLyCPNf4U_Nrpg3Mf-43">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-34" style="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="17" width="57" x="22.5" y="403" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="rel_9" plantUmlBaseStyle="endArrow=block;endFill=1;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="HedPLyCPNf4U_Nrpg3Mf-44">
+          <mxCell edge="1" parent="HedPLyCPNf4U_Nrpg3Mf-34" source="HedPLyCPNf4U_Nrpg3Mf-40" style="endArrow=block;endFill=1;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="HedPLyCPNf4U_Nrpg3Mf-39">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="rel_10" plantUmlBaseStyle="endArrow=block;endFill=1;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="HedPLyCPNf4U_Nrpg3Mf-45">
+          <mxCell edge="1" parent="HedPLyCPNf4U_Nrpg3Mf-34" source="HedPLyCPNf4U_Nrpg3Mf-42" style="endArrow=block;endFill=1;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="HedPLyCPNf4U_Nrpg3Mf-39">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

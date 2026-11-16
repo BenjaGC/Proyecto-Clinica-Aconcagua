@@ -1,0 +1,787 @@
+{
+  "fecha": "2026-11-15",
+  "archivos": [
+    {
+      "origen": "Incremento 4/Carta de Aceptación y Video de Cliente/Grabación de pantalla Cliente.mp4",
+      "release": "I4-Carta-de-Aceptacion-y-Video-de-Cliente-Grabacion-de-pantalla-Cliente.mp4",
+      "sha256": "42f438064677220ed94630498313979f3d829b3aa57646a164a6a36acdb4ab59",
+      "bytes": 996988022
+    },
+    {
+      "origen": "Incremento 4/Diagramas de caso de uso - Incremento IV/Diagrama de caso de uso CU-68.drawio",
+      "archivo": "Diagramas de caso de uso - Incremento IV/Diagrama de caso de uso CU-68.drawio",
+      "sha256": "9950913ad9de08686fac23f1245a801d02f1495f5894c69a04654a63fe42e287",
+      "bytes": 11978
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-71.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-71.png",
+      "sha256": "5a674e18c049f9d2fe7819e5b7f9b8021cfb48032546762c264199f12e5db68f",
+      "bytes": 2360
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-75.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-75.png",
+      "sha256": "9f5f2fef261fe9ae81a889d509ba4b3d72347030846712948e20045b20f6df33",
+      "bytes": 85764
+    },
+    {
+      "origen": "Incremento 4/Excel Incremento IV/Burndown del Sprint 4 (Incremento IV).xlsx",
+      "archivo": "Excel Incremento IV/Burndown del Sprint 4 (Incremento IV).xlsx",
+      "sha256": "d528db27f4acc89c67aba714435fd943ecd14cf128d7302dcb3fe0fbbd60f245",
+      "bytes": 8679
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-70.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-70.png",
+      "sha256": "5b1c786398c42347593588d9c006c8460e31febe7ded427aa127fe4437bf315f",
+      "bytes": 86039
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-02.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-02.png",
+      "sha256": "c918a656a6cb2958e90735edd562a027c46780c86e7d0d9156818f71051b5530",
+      "bytes": 9677
+    },
+    {
+      "origen": "Incremento 4/Diagrama de Secuencia del Diseño/CU67_Secuencia_de_diseño.drawio",
+      "archivo": "Diagrama de Secuencia del Diseño/CU67_Secuencia_de_diseño.drawio",
+      "sha256": "c77ceee7b0757f484cc004eea99ae05cfec72d6e2dc4e0afe44161b4763661c6",
+      "bytes": 69229
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-65.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-65.png",
+      "sha256": "97e3dc9d834ecd404f6213dcc87e5bd3e4caf4f36d6b2c9f401e0454e3e86564",
+      "bytes": 26139
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-60.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-60.png",
+      "sha256": "8a2a426d8dfc0d0ec751d9ed5b91dc45c7dc45612f2225ff4871a2b029a25682",
+      "bytes": 8343
+    },
+    {
+      "origen": "Incremento 4/Diagramas de caso de uso - Incremento IV/Diagrama de caso de uso CU-70.drawio",
+      "archivo": "Diagramas de caso de uso - Incremento IV/Diagrama de caso de uso CU-70.drawio",
+      "sha256": "1bcf8a697ebbd25b76d61f89ba4a8f76e8e9558ad4feac81d2af3bc8480e7f82",
+      "bytes": 10276
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-69.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-69.png",
+      "sha256": "85b9418543e58e4e5bb67950264bff10a40aa3d97696e523c895780cef3e0809",
+      "bytes": 25384
+    },
+    {
+      "origen": "Incremento 4/Carta de Aceptación y Video de Cliente/Carta De Aceptación.pdf",
+      "archivo": "Carta de Aceptación y Video de Cliente/Carta De Aceptación.pdf",
+      "sha256": "f8a903fd60c41f59d7907112d8504f866c5af257ff6f420ae3aeb48001de7bec",
+      "bytes": 257694
+    },
+    {
+      "origen": "Incremento 4/Diagrama de Secuencia del Diseño/CU70_Secuencia_de_diseño.drawio",
+      "archivo": "Diagrama de Secuencia del Diseño/CU70_Secuencia_de_diseño.drawio",
+      "sha256": "4f1d5ba6eaebc7e46f8113756a76517181ce4141f0ec455da69e689a5b99beec",
+      "bytes": 69841
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-64.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-64.png",
+      "sha256": "73b3103081275ef1e0d61780b252c4ef4b0a1900d58e6dc86ce07253eff7809a",
+      "bytes": 24218
+    },
+    {
+      "origen": "Incremento 4/Excel Incremento IV/Avance acumulado del proyecto frente a la meta.xlsx",
+      "archivo": "Excel Incremento IV/Avance acumulado del proyecto frente a la meta.xlsx",
+      "sha256": "f105f92c3b5e6649affe9ae758a4297e3ec161a203770b502daa692e176aa49a",
+      "bytes": 7723
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-39.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-39.png",
+      "sha256": "68aaf970dd2986c4b998c9b353aed1a579ca0ecb0f048b0added538c19e9051a",
+      "bytes": 3470
+    },
+    {
+      "origen": "Incremento 4/Excel Incremento IV/Incremento IV_ HH estimadas (126) vs. HH efectivas (129).xlsx",
+      "archivo": "Excel Incremento IV/Incremento IV_ HH estimadas (126) vs. HH efectivas (129).xlsx",
+      "sha256": "388dab68d1123669e78db2c36a2ffbee9826e3b9833365e80194ffea3e93635a",
+      "bytes": 7527
+    },
+    {
+      "origen": "Incremento 4/Diagrama de Secuencia del Diseño/CU68_Secuencia_de_diseño.drawio",
+      "archivo": "Diagrama de Secuencia del Diseño/CU68_Secuencia_de_diseño.drawio",
+      "sha256": "f8350bf6d073758c5f2fc4acd8a736084fa7be7201c9d5194c3437e6cef31dc6",
+      "bytes": 49432
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-20.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-20.png",
+      "sha256": "dbfe13d8a4ddb61419d83c4d32155cdb419cd9c26f9035dc646c850f026da94a",
+      "bytes": 121605
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-07.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-07.png",
+      "sha256": "c4e5c9158028aff79c3bd5a7dffb17dcb984e1790d1a25692351c3b578829b17",
+      "bytes": 13496
+    },
+    {
+      "origen": "Incremento 4/Excel Incremento IV/Distribución de casos de uso por incremento.xlsx",
+      "archivo": "Excel Incremento IV/Distribución de casos de uso por incremento.xlsx",
+      "sha256": "6ce4dcaec6557e8a68b07d1aa5466f2837ccb5e081df8a621f77b3b1d6444ac3",
+      "bytes": 7409
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-38.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-38.png",
+      "sha256": "dbfeb96483dab5d19b2ac873b69d802c1e681d306d1a8617309e572d5ce3cdc3",
+      "bytes": 8238
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-05.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-05.png",
+      "sha256": "4bd9c7da9f37c466ef3ab6f3576feaf9de925b2667113c223550cf3a2029c592",
+      "bytes": 9245
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-50.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-50.png",
+      "sha256": "bc72a69384ce5e5f514b94ac0787d7a519bb50dbd0f33c2728ea0f2c0cb5a2a6",
+      "bytes": 16527
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-52.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-52.png",
+      "sha256": "4c94a46349ba3879edbbe5aa54cf7d978cf6db368153ad577eabecfcb9ae11e9",
+      "bytes": 15138
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-54.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-54.png",
+      "sha256": "2a34d364efb19c355ce75a933edc154a42e6508af36af84e61a61010b2229982",
+      "bytes": 7098
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-73.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-73.png",
+      "sha256": "394458c2489aae171074505e8d97b8966902041daca8344385438e10ce82f4e9",
+      "bytes": 2053
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-18.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-18.png",
+      "sha256": "844aea20c3f025d04e0a6701dfb0dd0ffc19a898a41bb367792b42dffaef7057",
+      "bytes": 10605
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-16.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-16.png",
+      "sha256": "89515b2f42b1e0cd66d28ac32e8fe54bda14905a9660bdda27ce5c7c7381a5c2",
+      "bytes": 16131
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-42.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-42.png",
+      "sha256": "fe460beaf776953f80309f3c8fc63a0705adce48f277a8613875604359064a23",
+      "bytes": 37487
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-66.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-66.png",
+      "sha256": "7a59a97992f5ea4dbb3e906af13636049946189d25d9b319b441453bada9910f",
+      "bytes": 30060
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-25.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-25.png",
+      "sha256": "f31381e01230b0a3b65486e30e1b847d4719788e14c91497a0fd14a308525c9f",
+      "bytes": 40943
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-28.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-28.png",
+      "sha256": "851bba031b2a79c7fef85cc977aecd93e92b5c1e7eabf67e44bbc7e44a33d5bd",
+      "bytes": 8558
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-32.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-32.png",
+      "sha256": "43c2b381a993d1e3104d22afc1b4601c1423ac44c7cc31af61ef7fb49fb651aa",
+      "bytes": 6938
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-01.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-01.png",
+      "sha256": "e05013a21976c95d876c2ae1da31e457496ee6648727b3aaed8a747339b44d36",
+      "bytes": 9614
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-11.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-11.png",
+      "sha256": "e2ccc7c882ef358a517407bac71996d7d784ea04e3db0608e17e8f94e92c24ef",
+      "bytes": 13494
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-17.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-17.png",
+      "sha256": "b5018f7717e7a06a23226feca4144de13606bfe5f1503a1658d25cf500ab5bc0",
+      "bytes": 31515
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-21.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-21.png",
+      "sha256": "669c90b3ceaaadc9124a1e1ba811ce462c05973b22c6048694234a8ca72d68f6",
+      "bytes": 8992
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-08.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-08.png",
+      "sha256": "58195e70d2c2dfd33cd1e45ec1d3229e9a830ef7abecadaff170a1d4398a292c",
+      "bytes": 13846
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-33.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-33.png",
+      "sha256": "4651fcfea9d4ae6ab37d659275e9bff92807aacbbb2eb930a03509e0916c7500",
+      "bytes": 7731
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-58.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-58.png",
+      "sha256": "17f07683c649a102fd074ed2af5266c99a04b54bd61013f09acf8002ae7f23f2",
+      "bytes": 40677
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-74.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-74.png",
+      "sha256": "170db1087073914a2075fbc38d304138d5309c92480d8ac8220c15ca190ffba9",
+      "bytes": 7235
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-48.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-48.png",
+      "sha256": "26be72c85c95a7df83ddaa942e94a445a007441728df72d0f51a4bfaf5743671",
+      "bytes": 21825
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-14.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-14.png",
+      "sha256": "0f2ee98c88e51c5df6b80e6732cf7e81a02102f795f27fc1918571c33bdaf98d",
+      "bytes": 15435
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-37.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-37.png",
+      "sha256": "6f128ad3a159e3d5355d9c52b7a89db5ea7e487963547a5620d966939808d099",
+      "bytes": 33947
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-43.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-43.png",
+      "sha256": "e22ea76cc31ce9c623bb0426ddbf9f51409e1c57fc536f60cd4cabbe5a317186",
+      "bytes": 3190
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-46.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-46.png",
+      "sha256": "e5d42873f03d368447fd72a736a6ff02644ca3a698340ff0aa0206677aab57ce",
+      "bytes": 23537
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-49.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-49.png",
+      "sha256": "ec2bcbbe119d386d5cd567ed642b2984a1d1b223ddf9453a5d95a6657091a796",
+      "bytes": 21854
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-67.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-67.png",
+      "sha256": "e80d77734fe95cd8a4010bef22e81b5d3ea35b1246b669519ad9997123f1d064",
+      "bytes": 39366
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-53.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-53.png",
+      "sha256": "c1460898fbd25bf23d441cb1f90e2ede856e1b37ddcf1a7dbef364e7e1bb4122",
+      "bytes": 13411
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-06.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-06.png",
+      "sha256": "779e7b417329157a289e2a9567622068772d446ff7852abf56cf4e4633a456db",
+      "bytes": 9671
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-63.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-63.png",
+      "sha256": "228ab81c1f38d950c27628192162f4d3159eb4507fc5273c4b9941e86cc14c8e",
+      "bytes": 2353
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-09-a-preferencia-oscura.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-09-a-preferencia-oscura.png",
+      "sha256": "44c94d3a02f4f3af1b4502f12baa1b3f5f78102903309f5b8ef05d244be0a433",
+      "bytes": 10161
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-31.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-31.png",
+      "sha256": "fb7a506fb2f8fbc119a49798f10f65010dbd2644ada243e16cf533b94d14955e",
+      "bytes": 2088
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-19.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-19.png",
+      "sha256": "9f6faa893b5da74befd3b9408835950a45f4dbd70a9d7b03e53bef74d26725e6",
+      "bytes": 17977
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-11-rendimiento-del-mantenimiento.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-11-rendimiento-del-mantenimiento.png",
+      "sha256": "8eecf8b13617620bdb84f85b67807a900e8513748910779fbd1002e24044aef3",
+      "bytes": 22184
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-23.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-23.png",
+      "sha256": "7eaff03d4d1c1215811589c27671370ccc9b0c5271f272df67eb0bbb0bee2e0c",
+      "bytes": 9633
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-59.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-59.png",
+      "sha256": "08bfd73d8ab04ba550445955b47aaeed3ed04e30111b9ecd2c4c7fa2f37e95aa",
+      "bytes": 6972
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-07-a-acceso-bloqueado.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-07-a-acceso-bloqueado.png",
+      "sha256": "de3135314c4b72cf0bae66791ddb89c7ab3c18df949752d9c9beb17ebea61492",
+      "bytes": 17622
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-03-bitacora.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-03-bitacora.png",
+      "sha256": "863170689d34f3930c0c4d6be3a3ba4504316c8c016b3207c2a11d9d0c5a4cc3",
+      "bytes": 5907
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-07-b-auditoria-y-alerta.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-07-b-auditoria-y-alerta.png",
+      "sha256": "d76a724babd58c2e13f99668206fb4feeec1ea2cb4e79871f4f5b78ca35091fe",
+      "bytes": 19524
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-22.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-22.png",
+      "sha256": "c119c1fe368d07acbd0c4305719c0e93265eed5a8173e56b49743d8b4bd792f7",
+      "bytes": 9665
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-06-desempeno.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-06-desempeno.png",
+      "sha256": "f18b27a0acadbc150c64a0d4cc7d3ed8d8a09de5b33a60d5701936d874b846ea",
+      "bytes": 19420
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-02-tope-sin-asignar.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-02-tope-sin-asignar.png",
+      "sha256": "82d2f26718543ab850f64f0e666f22502a03e4aff1dfd7d6da794ec1cc17b0ca",
+      "bytes": 37993
+    },
+    {
+      "origen": "Incremento 4/Diagramas de caso de uso - Incremento IV/Diagrama de caso de uso CU-67.drawio",
+      "archivo": "Diagramas de caso de uso - Incremento IV/Diagrama de caso de uso CU-67.drawio",
+      "sha256": "b12e5e7d7bebd99bf850810e64296abfeca635285c7c9f6b2a6a6393b764aa4a",
+      "bytes": 8456
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-30.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-30.png",
+      "sha256": "13fd43b0c0daba670c1ab8fff66e0e1dcc7b236801f3b6b659b97c3d756c8ef9",
+      "bytes": 22959
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-10-accesibilidad-y-contraste.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-10-accesibilidad-y-contraste.png",
+      "sha256": "9c13adbd3d389a053666367429a40db9d46a0cd33431a0cf8d578f0d52cacade",
+      "bytes": 30887
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-68.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-68.png",
+      "sha256": "2c6d561b86c081a0f6280dcb8794c474a4a9aa99e4bd87bbf9c21d0e5ec801af",
+      "bytes": 24574
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-44.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-44.png",
+      "sha256": "4f82a857d9b5e6926a75671243033463c0f4257b2cf4e071e4b98e82f1df0c0d",
+      "bytes": 24821
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-12.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-12.png",
+      "sha256": "af93cc51af8d19f82a18680bfbdd231738369348bd43f7236944ccf2329cbe51",
+      "bytes": 17371
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-09-limite-de-acceso.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-09-limite-de-acceso.png",
+      "sha256": "907d51be08571c2d86a76f65ab71c5864b5f583bfc9571c9d5908dd41ce79816",
+      "bytes": 21687
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-03-seguridad.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-03-seguridad.png",
+      "sha256": "14a4b4fc04f5e60501c8fc6a083bcd9d613706c350cc7891bcfa83842ad820fc",
+      "bytes": 39653
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-03-cuenta-deshabilitada.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-03-cuenta-deshabilitada.png",
+      "sha256": "7badcf431a9b0b82fd3907fed43394056b6b089e809a1aca59d933cbf4d74a6c",
+      "bytes": 8410
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-05-encuesta-vigente.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-05-encuesta-vigente.png",
+      "sha256": "c1d17e2eb9ecaa02275b10a25c3d0b90f6b1cb4f4dfadb1cef27ee8c7e9b9b98",
+      "bytes": 14838
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-55.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-55.png",
+      "sha256": "3aa1f79403219147fc2a3abdb77f21fba0f419be7345ce9a7b52e432bf6f358e",
+      "bytes": 8329
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-61.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-61.png",
+      "sha256": "9711f3570d5a878273b822899f7f237ef6a1ebb5c365c06b062ca209dac6632e",
+      "bytes": 7065
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-15.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-15.png",
+      "sha256": "f1e2fba4d84c53cd607509c20b001ed1bd62de6696d30e4f3a299b0ede5c2523",
+      "bytes": 16190
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-24.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-24.png",
+      "sha256": "4c0e5aa9d20eb985a6edacb7f6ac59c8485f3dd592e46ab57bc3391705795904",
+      "bytes": 17960
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-03.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-03.png",
+      "sha256": "d448811f52ce78450e8fba9a0b16986d30781b101a71b46422eb66cc89b2e4f0",
+      "bytes": 32762
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-01-rendimiento.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-01-rendimiento.png",
+      "sha256": "b0f20bd49e162816f8b6c305d08c320c9db9de6bd61b544b69edd42db72325ae",
+      "bytes": 37506
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-29.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-29.png",
+      "sha256": "ae609b86d1318c6cde5269e4ab360cbddf1e9d0bbf7d617dcaf1c15fcb68f0c4",
+      "bytes": 10012
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-45.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-45.png",
+      "sha256": "d11b6e33a001f6dfc60a4dd11b1b44c1ef2cb963de3ec25143d1497a849155eb",
+      "bytes": 3402
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-02-concurrencia.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-02-concurrencia.png",
+      "sha256": "bac739415d70ae8faaf208d9dde23f5b6e6405f3635db6bb95f0427467ec5408",
+      "bytes": 38638
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-51.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-51.png",
+      "sha256": "38de758e9ae817f2f80a1442a73bb0a024be444e67e4716d3d35470cd60ca814",
+      "bytes": 11902
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-08-a-retencion-y-respaldo.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-08-a-retencion-y-respaldo.png",
+      "sha256": "15e64884850a1c146abe2f0028913db4c9bd5ab4dcea4aa84c48f527aedccf47",
+      "bytes": 19740
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-26.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-26.png",
+      "sha256": "84fc5aff9f2ee04647f2a269259c8100a73e32e7f6860baa38f9a16e82a89c00",
+      "bytes": 7272
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-40.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-40.png",
+      "sha256": "d47f4a8003680a4372da7fe182a0ef7ca14b70825e059af74a1e5b6f8bd056a3",
+      "bytes": 25809
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-07-mantenibilidad.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-07-mantenibilidad.png",
+      "sha256": "b9c192d304b5fd3cd0a3f9cf2d0b431a0b0104fea91c7b02455d20cadc9006ce",
+      "bytes": 38979
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-04.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-04.png",
+      "sha256": "0d6e43f75b5f920b0d0f7879b164b533881602d45f82d5e50cef4d3fe8207922",
+      "bytes": 6582
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-06-fiabilidad.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-06-fiabilidad.png",
+      "sha256": "2bcf1901c1d491ffabcae26afffa06872cdc1ac239f362c2d994438723929c03",
+      "bytes": 42465
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-62.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-62.png",
+      "sha256": "d871c9a971cce48c13f8464808041941b04a15fe27f878d83b84c41ad32f49e8",
+      "bytes": 30528
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-57.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-57.png",
+      "sha256": "43afc3ed34cfe3784d959d113fc392430991833f28751cc5f3f0dfdcb3006963",
+      "bytes": 2567
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-12-recuperacion-del-respaldo.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-12-recuperacion-del-respaldo.png",
+      "sha256": "a1a37670d78d0ec5db5ebd674d75fbfc3158cbfac5de4e3dc172536e4d02b51a",
+      "bytes": 23520
+    },
+    {
+      "origen": "Incremento 4/Diagramas BD/Arbol de navegación.drawio",
+      "archivo": "Diagramas BD/Arbol de navegación.drawio",
+      "sha256": "38cb04e2ec991978ddb35aa929319c85f1425081f3c8f038b2df6e2fedf0d404",
+      "bytes": 68990
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-72.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-72.png",
+      "sha256": "c35e21df7cc5a49abd4c4a5df4d3b3353630244690caa84a855e123ab97e92ad",
+      "bytes": 138576
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-27.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-27.png",
+      "sha256": "e00ffc0eedc849e6e00f2e182d25f56a2bcc5a1dd6c900997e290d1d208bcb2f",
+      "bytes": 6776
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-05-compatibilidad.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-05-compatibilidad.png",
+      "sha256": "f4fe1bc5bacbe0825c2879b844af0f5c0a0d1c19e321c8404dc9a867ec38460f",
+      "bytes": 41189
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-09.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-09.png",
+      "sha256": "2f1faaf730e9c65d0ea52f611d417bd26189ffe5b90689d950963a57b52e2298",
+      "bytes": 28960
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-10.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-10.png",
+      "sha256": "c553bc2f9b839df046e70aff49a3ce96d6b21e8ab8196a370d4aae77b180dfea",
+      "bytes": 28705
+    },
+    {
+      "origen": "Incremento 4/Diagramas BD/Diagrama de Componentes.drawio",
+      "archivo": "Diagramas BD/Diagrama de Componentes.drawio",
+      "sha256": "95ef5b3915a8f286802d236ecdf469319422490d131c8fc66a79a961608c6c8d",
+      "bytes": 28081
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-34.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-34.png",
+      "sha256": "ab25e083914192de0777d5344dd885bbc98750913abad03f2cd83f3dc448c323",
+      "bytes": 12632
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-36.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-36.png",
+      "sha256": "69c7ecbce4359030a40cc9c371d2cb8556b21cf3016cf5d543c69832b82ff375",
+      "bytes": 34427
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-41.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-41.png",
+      "sha256": "db9fb9fd5e3e0bb458dee9af3a8d112a3e776011c6e31da246ad5d8b7ba078d6",
+      "bytes": 6974
+    },
+    {
+      "origen": "Incremento 4/Diagramas BD/Modelo Fisico_3.drawio",
+      "archivo": "Diagramas BD/Modelo Fisico_3.drawio",
+      "sha256": "4011c711df31e07c9a9e0268711830cf7cc12284068f40a35901661913a1268c",
+      "bytes": 106461
+    },
+    {
+      "origen": "Incremento 4/Diagramas BD/Diagrama de Despliegue.drawio",
+      "archivo": "Diagramas BD/Diagrama de Despliegue.drawio",
+      "sha256": "6b36a2718d379ada8a2d21027b76e6388876bf8a9caedc605a0ba8c85ae72630",
+      "bytes": 24341
+    },
+    {
+      "origen": "Incremento 4/Carta de Aceptación y Video de Cliente/Video Aceptación Cliente Clinica Aconcagua.mp4",
+      "release": "I4-Carta-de-Aceptacion-y-Video-de-Cliente-Video-Aceptacion-Cliente-Clinica-Aconcagua.mp4",
+      "sha256": "4d7a3d95197f6be4d40379e22e658d44fb69e40dcdd96b103633dfd07364f64a",
+      "bytes": 36522676
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-07-c-alerta-de-correo.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-07-c-alerta-de-correo.png",
+      "sha256": "cedb5b0a2f3b17643fff1d1685e030cb7b0571f03286c7881b9e9f5c2cdd9731",
+      "bytes": 18887
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-13.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-13.png",
+      "sha256": "a495a247b834fae9f09e556d90d50225ee62d8809f1d8f8204df3edb3f037767",
+      "bytes": 19751
+    },
+    {
+      "origen": "Incremento 4/Diagramas BD/ClasesUML.drawio",
+      "archivo": "Diagramas BD/ClasesUML.drawio",
+      "sha256": "26169d5cea1bf5401351bac5f2a98535feb17dc61506f46a3b07e23a698bb346",
+      "bytes": 158165
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-04-archivo-historico.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-04-archivo-historico.png",
+      "sha256": "ce42321cafec588b726cdf02998912bf6afc758d8044dd7c7d367c7a1830ade3",
+      "bytes": 34084
+    },
+    {
+      "origen": "Incremento 4/Diagramas BD/COLORES.docx",
+      "archivo": "Diagramas BD/COLORES.docx",
+      "sha256": "74fc95213505ddfb067f2a06a98b942cb14f6403ec532dbc8d5dbcec539c24ba",
+      "bytes": 7027
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-47.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-47.png",
+      "sha256": "82d8e865d4a3722f6629592652e0dc8c5b6205bafc0d9ff733b328c630fda652",
+      "bytes": 23761
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-09-administracion-oscura.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-09-administracion-oscura.png",
+      "sha256": "b85af0c0b10ab78b2b3250061feeebe0c59abde7f0fb70abb383ee885a2502a5",
+      "bytes": 59926
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-08-b-mantenimiento-completado.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-08-b-mantenimiento-completado.png",
+      "sha256": "00d1d8d053d91ea391f1fcd19a5b3a2187f3c9d535887185f217be8e7a118e6d",
+      "bytes": 5382
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-02-competencias.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-02-competencias.png",
+      "sha256": "3d32d6c6640d28e36979d52de2a74980c66671e61b979e6d644ae5762650e9fa",
+      "bytes": 22515
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-04-usabilidad.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-04-usabilidad.png",
+      "sha256": "ad8c1e553834851eddd60d42ac77234bef4c40f9a238a04c912d7239f99e0111",
+      "bytes": 43267
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-35.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-35.png",
+      "sha256": "7aeb70ef9121d8546dd549af7665b3069118ba222d495ea833b9059fc53743b3",
+      "bytes": 4492
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-01-correo-y-ticket.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-01-correo-y-ticket.png",
+      "sha256": "71df3ac8fa1c4f69e1a2e5c496f49dee5143cd45d4be5b9b79451ec2714bc90d",
+      "bytes": 11963
+    },
+    {
+      "origen": "Incremento 4/Incremento 4 - Grupo 11 - Ingenieria Software.docx",
+      "archivo": "Incremento 4 - Grupo 11 - Ingenieria Software.docx",
+      "sha256": "87c5145935d2dac84bb2ee7732c63f9657c855e5e727c21ffeddcb68074da4c4",
+      "bytes": 6093923
+    },
+    {
+      "origen": "Incremento 4/Pruebas unitarias y de integración - Incremento IV/P-56.png",
+      "archivo": "Pruebas unitarias y de integración - Incremento IV/P-56.png",
+      "sha256": "a082e187674008c5c580fae3247b7cab568a937fb872f90841dc73c8d59556d9",
+      "bytes": 2212
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-03-reasignacion-jefatura.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-03-reasignacion-jefatura.png",
+      "sha256": "59bb2e4bfb88382566095d56fda4c398134d5760361c58fd7a3d6d1b33816353",
+      "bytes": 37931
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-01-asignacion.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/I-01-asignacion.png",
+      "sha256": "a35606cdff5a7d067f46271315a9516c9e69b98cff42828ae7ca194ec35c2d23",
+      "bytes": 38597
+    },
+    {
+      "origen": "Incremento 4/Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-08-portabilidad.png",
+      "archivo": "Pruebas de Integracion e ISO - EIC25010 - Incremento IV/Q-08-portabilidad.png",
+      "sha256": "189084be772cb92a66b89b2d4cc14fb59b925d4bcc46f237392655f15d28ab55",
+      "bytes": 40568
+    },
+    {
+      "origen": "Incremento 4/Diagramas BD/Mere.drawio",
+      "archivo": "Diagramas BD/Mere.drawio",
+      "sha256": "eb0b0b6be61e2177fd047431c80acbfa1f2023a1349da2bb1eafbc8403acce8b",
+      "bytes": 137177
+    },
+    {
+      "origen": "Incremento 4/Presentación Incremento IV - Grupo 11/Incremento4_CentroClinicoAconcagua.pptx",
+      "archivo": "Presentación Incremento IV - Grupo 11/Incremento4_CentroClinicoAconcagua.pptx",
+      "sha256": "26e656faf9b085f8054d06a5343051a774a50f8b5f7a11c3651830fb38f5ff63",
+      "bytes": 2877388
+    },
+    {
+      "origen": "Incremento 4/Presentación Incremento IV - Grupo 11/Guia instalacion Local.mov",
+      "release": "I4-Presentacion-Incremento-IV---Grupo-11-Guia-instalacion-Local.mov",
+      "sha256": "9036e1be9a79fc0ac4d1d293d7f2c0ac01f2923da3a53e27e9cb1659e70cde6b",
+      "bytes": 309766162
+    },
+    {
+      "origen": "Incremento 4/Presentación Incremento IV - Grupo 11/Video Presentación Incremento IV.mp4",
+      "release": "I4-Presentacion-Incremento-IV---Grupo-11-Video-Presentacion-Incremento-IV.mp4",
+      "sha256": "7aef064c19c08e9074464571f64b6fb334020af869e90f64a3cd017a0fcaad9a",
+      "bytes": 776886283
+    }
+  ],
+  "excluidos": [
+    "Incremento 4/Diagrama de Secuencia del Diseño/.$CU68_Secuencia_de_diseño.drawio.bkp",
+    "Incremento 4/Diagrama de Secuencia del Diseño/.$CU70_Secuencia_de_diseño.drawio.bkp",
+    "Incremento 4/Diagrama de Secuencia del Diseño/.$CU67_Secuencia_de_diseño.drawio.bkp",
+    "Documento 0/CV - Grupo 11/Curriculum Nicolas Salas.pdf",
+    "Documento 0/CV - Grupo 11/Curriculum Carlos Leon.pdf",
+    "Documento 0/CV - Grupo 11/Curriculum Laura Gonzalez.pdf",
+    "Documento 0/CV - Grupo 11/Curriculum Benjamin Gonzalez.pdf",
+    "Documento 0/CV - Grupo 11/Curriculum Vicente Henriquez.pdf",
+    "Documento 0/Diagramas de Casos de Uso/.$Diagrama de Caso de Uso 10.1.drawio.bkp",
+    "Documento 0/CV - Grupo 11/Curriculum Pedro Lopez.pdf",
+    "Documento 0/CV - Grupo 11/CV Aylin Herrera.pdf",
+    "Documento 0/CV - Grupo 11/Curriculum Daniel Castillo.pdf"
+  ]
+}

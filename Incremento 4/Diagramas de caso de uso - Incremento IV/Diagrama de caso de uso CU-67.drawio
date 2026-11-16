@@ -1,0 +1,70 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="OMyLIjmfiqnJW49B6w7N">
+    <mxGraphModel dx="2182" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\n\nactor \&quot;Sistema\&quot; as Sistema\n\nrectangle \&quot;Módulo de Ciclo de Vida del Dato\&quot; {\n  usecase \&quot;CU-67: Manteniendo las tablas de traza\&quot; as CU67\n  usecase \&quot;E-1: Gestionando no existe política de retención configurada\&quot; as E1\n  usecase \&quot;E-2: Gestionando no hay registros fuera del rango de retención\&quot; as E2\n  usecase \&quot;E-3: Gestionando falla en la generación del respaldo\&quot; as E3\n}\n\nSistema --&gt; CU67\n\nE1 .up.&gt; CU67 : &lt;&lt;extend&gt;&gt;\nE2 .up.&gt; CU67 : &lt;&lt;extend&gt;&gt;\nE3 .up.&gt; CU67 : &lt;&lt;extend&gt;&gt;\n\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="HedPLyCPNf4U_Nrpg3Mf-1">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Módulo de Ciclo de Vida del Dato" plantUmlId="rect_0" plantUmlBaseStyle="swimlane;collapsible=0;startSize=26;fillColor=none;strokeColor=#181818;fontColor=#000000;fontSize=13;fontStyle=1;whiteSpace=wrap;" plantUmlBaseValue="Módulo de Ciclo de Vida del Dato" id="HedPLyCPNf4U_Nrpg3Mf-2">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-1" style="swimlane;collapsible=0;startSize=26;fillColor=none;strokeColor=#181818;fontColor=#000000;fontSize=13;fontStyle=1;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="412" width="811" x="111" y="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="E-1: Gestionando no existe política de retención configurada" plantUmlId="uc_1" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="E-1: Gestionando no existe política de retención configurada" id="HedPLyCPNf4U_Nrpg3Mf-3">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-2" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="92" width="434" x="349" y="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="E-2: Gestionando no hay registros fuera del rango de retención" plantUmlId="uc_2" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="E-2: Gestionando no hay registros fuera del rango de retención" id="HedPLyCPNf4U_Nrpg3Mf-4">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-2" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="94" width="445" x="343.5" y="175" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="E-3: Gestionando falla en la generación del respaldo" plantUmlId="uc_3" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="E-3: Gestionando falla en la generación del respaldo" id="HedPLyCPNf4U_Nrpg3Mf-5">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-2" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="80" width="375" x="378.5" y="300" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CU-67: Manteniendo las tablas de traza" plantUmlId="uc_4" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="CU-67: Manteniendo las tablas de traza" id="HedPLyCPNf4U_Nrpg3Mf-6">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-2" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="80" width="231" x="16" y="170" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_8" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="HedPLyCPNf4U_Nrpg3Mf-10">
+          <mxCell edge="1" parent="HedPLyCPNf4U_Nrpg3Mf-2" source="HedPLyCPNf4U_Nrpg3Mf-3" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="HedPLyCPNf4U_Nrpg3Mf-6">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_9" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="HedPLyCPNf4U_Nrpg3Mf-11">
+          <mxCell edge="1" parent="HedPLyCPNf4U_Nrpg3Mf-2" source="HedPLyCPNf4U_Nrpg3Mf-4" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="HedPLyCPNf4U_Nrpg3Mf-6">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_10" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="HedPLyCPNf4U_Nrpg3Mf-12">
+          <mxCell edge="1" parent="HedPLyCPNf4U_Nrpg3Mf-2" source="HedPLyCPNf4U_Nrpg3Mf-5" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="HedPLyCPNf4U_Nrpg3Mf-6">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="actor_5" plantUmlBaseStyle="shape=umlActor;html=1;fillColor=#F1F1F1;strokeColor=#181818;fontColor=#000000;fontSize=14;" plantUmlBaseValue="" id="HedPLyCPNf4U_Nrpg3Mf-7">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-1" style="shape=umlActor;html=1;fillColor=#F1F1F1;strokeColor=#181818;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="60" width="40" x="-9" y="210" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Sistema" plantUmlId="actorlbl_6" plantUmlBaseStyle="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Sistema" id="HedPLyCPNf4U_Nrpg3Mf-8">
+          <mxCell parent="HedPLyCPNf4U_Nrpg3Mf-1" style="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="17" width="62" x="-20" y="272" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="rel_7" plantUmlBaseStyle="endArrow=block;endFill=1;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="HedPLyCPNf4U_Nrpg3Mf-9">
+          <mxCell edge="1" parent="HedPLyCPNf4U_Nrpg3Mf-1" source="HedPLyCPNf4U_Nrpg3Mf-7" style="endArrow=block;endFill=1;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="HedPLyCPNf4U_Nrpg3Mf-6">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

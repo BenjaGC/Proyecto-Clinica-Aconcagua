@@ -1,0 +1,710 @@
+<mxfile host="Electron">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="2594" dy="1668" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="&lt;b&gt;&lt;span style=&quot;font-size:9.0pt;line-height:115%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Arial;mso-ansi-language:&lt;br/&gt;ES-CL;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;CU-70 – Flujo Principal&lt;/span&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="723" x="35" y="-39" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_a" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="-245" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_a" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-230" y="121" as="sourcePoint" />
+            <mxPoint x="-230" y="573.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Login" vertex="1">
+          <mxGeometry height="40" width="110" x="131" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_v" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="187" y="87" as="sourcePoint" />
+            <mxPoint x="187" y="566.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_AuthController" vertex="1">
+          <mxGeometry height="40" width="155" x="557" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_s" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="633" y="84" as="sourcePoint" />
+            <mxPoint x="632.76" y="550.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1305" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_a" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="437" width="10" x="-235" y="123" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="425" width="10" x="182" y="129" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="333" width="10" x="628" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="209" width="10" x="1384" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_m0" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.003;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;1. Ingresa credenciales e intenta iniciar sesión (5to intento erróneo)&lt;/code&gt;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="-0.0003" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-223.58999999999992" y="159.72699999999998" as="sourcePoint" />
+            <mxPoint x="182.02999999999997" y="159.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_m1" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.17;exitY=0.138;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.06;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="0.0035" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="193.00000000000028" y="175.44199999999995" as="sourcePoint" />
+            <mxPoint x="626.7" y="173.99900000000008" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-115" connectable="0" parent="d0_m1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. POST /api/auth/login&amp;nbsp;&lt;div&gt;{ username: &quot;tecnico_box&quot;, password: &quot;wrong_password&quot;, ip: &quot;192.168.1.45&quot; }&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1812" y="3" as="geometry">
+            <mxPoint x="39" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-134" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="&lt;b&gt;&lt;span style=&quot;font-size:9.0pt;line-height:115%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Arial;mso-ansi-language:&lt;br/&gt;ES-CL;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;CU-70 – Excepción 1&lt;/span&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="723" x="182" y="596" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-135" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="&lt;b&gt;&lt;span style=&quot;font-size:9.0pt;line-height:115%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Arial;mso-ansi-language:&lt;br/&gt;ES-CL;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;CU-70 – Excepción 2&lt;/span&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="452" x="2366" y="-11" as="geometry" />
+        </mxCell>
+        <mxCell id="LSGTz4Vfso89_mCbXE9f-103" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.189;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" target="d0_bar_db" value="">
+          <mxGeometry relative="1" x="0.1686" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="636.9999999999999" y="203.9450000000001" as="sourcePoint" />
+            <mxPoint x="1371" y="207.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSGTz4Vfso89_mCbXE9f-104" connectable="0" parent="LSGTz4Vfso89_mCbXE9f-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. INSERT INTO intento_login (username, ip_address, success, created_at) VALUES (&#39;tecnico_box&#39;, &#39;192.168.1.45&#39;, 0, NOW());&amp;nbsp;&lt;div&gt;SELECT COUNT(*) AS failed_count FROM intento_login WHERE username = &#39;tecnico_box&#39; AND created_at &amp;gt; DATE_SUB(NOW(),&amp;nbsp;&lt;/div&gt;&lt;div&gt;INTERVAL 15 MINUTE) AND success = 0;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0432" y="3" as="geometry">
+            <mxPoint x="7" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSGTz4Vfso89_mCbXE9f-106" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;" value="4. Retorna { failed_count: 5 } (Umbral alcanzado: 5 intentos consecutivos)">
+          <mxGeometry relative="1" x="-0.0301" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1383.5" y="248.39999999999998" as="sourcePoint" />
+            <mxPoint x="637" y="246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_ll_db" edge="1" parent="1" source="d0_db" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1389" y="82" as="sourcePoint" />
+            <mxPoint x="1389" y="538.53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-10" edge="1" parent="1" source="d0_bar_s" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.964;entryY=0.887;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;" value="10. 423 Locked { success: false, error: &quot;ACCOUNT_TEMPORARILY_LOCKED&quot;,&lt;div&gt;&amp;nbsp;lockDurationMinutes: 30, message:&lt;div&gt;&amp;nbsp;&quot;Cuenta bloqueada por 30 minutos tras alcanzar 5 intentos fallidos consecutivos.&quot; }&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0035" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="625.5200000000003" y="485.99999999999994" as="sourcePoint" />
+            <mxPoint x="191.9999999999999" y="488.26899999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-76" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="&lt;b&gt;&lt;span style=&quot;font-size:9.0pt;line-height:115%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:&lt;br/&gt;minor-latin;mso-ansi-language:ES-CL;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot;&gt;CU-70 – Excepción 3&lt;/span&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="723" x="2156" y="654" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-3" edge="1" parent="1" source="d0_bar_v" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.117;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.027;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" target="d0_bar_a" value="12. Despliega aviso en interfaz: &quot;Acceso bloqueado: Ha superado el límite de&lt;div&gt;&amp;nbsp;5 intentos fallidos. Su cuenta ha sido bloqueada por 30 minutos.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Se envió una alerta a su correo electrónico.&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0069" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="182.06000000000017" y="428.0049999999999" as="sourcePoint" />
+            <mxPoint x="-223" y="428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-97" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_EmailNotification" vertex="1">
+          <mxGeometry height="40" width="168" x="1520" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-98" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="77" width="10" x="1599" y="403" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-99" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1604.0000000000005" y="81" as="sourcePoint" />
+            <mxPoint x="1604" y="537.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-105" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Evalúa regla de seguridad: failed_count &amp;gt;= 5 -&amp;gt; Activa bloqueo preventivo por 30 minutos">
+          <mxGeometry relative="1" x="-0.9344" y="6" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="688" y="274" />
+              <mxPoint x="688" y="296" />
+            </Array>
+            <mxPoint x="638" y="274" as="sourcePoint" />
+            <mxPoint x="638" y="296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-106" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="0.1747" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="638.9999999999999" y="348.9550000000001" as="sourcePoint" />
+            <mxPoint x="1382.99" y="348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-107" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-106" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6. START TRANSACTION; UPDATE user SET is_locked = 1, locked_until = DATE_ADD(NOW(), INTERVAL 30 MINUTE)&amp;nbsp;&lt;div&gt;WHERE username = &#39;tecnico_box&#39;; INSERT INTO bitacora (action, ip_address, details, created_at) VALUES (&#39;ACCOUNT_TEMPORARY_LOCKOUT&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;192.168.1.45&#39;, &#39;Bloqueo preventivo de 30 min por 5 fallos consecutivos&#39;, NOW()); COMMIT;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0403" y="3" as="geometry">
+            <mxPoint x="14" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-108" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.05;exitY=0.289;exitDx=0;exitDy=0;exitPerimeter=0;" value="7. Confirma bloqueo de cuenta y registro de auditoría">
+          <mxGeometry relative="1" x="-0.0296" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1384" y="387" as="sourcePoint" />
+            <mxPoint x="637" y="387" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-109" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="l_1P6a8qIhUbBJwIfXmz-98" value="">
+          <mxGeometry relative="1" x="0.1654" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="637.9999999999999" y="422.9550000000001" as="sourcePoint" />
+            <mxPoint x="1590.83" y="418.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-110" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-109" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8. sendSecurityAlert({ email: &quot;tecnico@clinica.cl&quot;, subject: &quot;Alerta de seguridad: Cuenta bloqueada temporalmente&quot;, lockDurationMinutes: 30, ip: &quot;192.168.1.45&quot; })" vertex="1">
+          <mxGeometry relative="1" x="-0.0489" y="3" as="geometry">
+            <mxPoint x="16" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-111" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.317;exitY=0.641;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.283;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;" value="9. Confirma despacho de correo de alerta">
+          <mxGeometry relative="1" x="-0.0282" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1598.83" y="462.99699999999996" as="sourcePoint" />
+            <mxPoint x="641.8299999999999" y="468.1600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="11. Alpine.js desactiva inputs de formulario e&lt;div&gt;&amp;nbsp;inicializa temporizador regresivo de 30 minutos&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0902" y="10" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="243" y="505" />
+              <mxPoint x="243" y="527" />
+            </Array>
+            <mxPoint x="193" y="505" as="sourcePoint" />
+            <mxPoint x="193" y="527" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-117" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="-247" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-118" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-232" y="784" as="sourcePoint" />
+            <mxPoint x="-232" y="1180.53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-119" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Login" vertex="1">
+          <mxGeometry height="40" width="110" x="129" y="708" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-120" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="750" as="sourcePoint" />
+            <mxPoint x="185" y="1176.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-121" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_AuthController" vertex="1">
+          <mxGeometry height="40" width="155" x="555" y="706" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-122" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="631" y="747" as="sourcePoint" />
+            <mxPoint x="630.76" y="1166.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1253" y="706" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="365" width="10" x="-237" y="786" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-125" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="356" width="10" x="180" y="792" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="261" width="10" x="626" y="831" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-127" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="209" width="10" x="1332" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-128" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.003;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;1. Ingresa usuario y contraseña correcta&amp;nbsp;&lt;/code&gt;&lt;/p&gt;&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;(tras 3 intentos previos fallidos) y pulsa &quot;Iniciar Sesión&quot;&lt;/code&gt;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="-0.0093" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-225.58999999999992" y="822.727" as="sourcePoint" />
+            <mxPoint x="180.02999999999997" y="822.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-129" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.17;exitY=0.138;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.06;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="0.0035" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="191.00000000000028" y="838.442" as="sourcePoint" />
+            <mxPoint x="624.7" y="836.999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-130" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-129" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. POST /api/auth/login { username: &quot;carlos_tecnico&quot;,&amp;nbsp;&lt;div&gt;password: &quot;validPassword123!&quot;, ip: &quot;192.168.1.45&quot; }&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1812" y="3" as="geometry">
+            <mxPoint x="39" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-131" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.002;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" target="l_1P6a8qIhUbBJwIfXmz-127" value="">
+          <mxGeometry relative="1" x="0.1647" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="634.9999999999999" y="866.9450000000002" as="sourcePoint" />
+            <mxPoint x="1369" y="870.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-132" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-131" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. SELECT id, password_hash, is_locked, role FROM user WHERE username = &#39;carlos_tecnico&#39;;" vertex="1">
+          <mxGeometry relative="1" x="-0.0468" y="3" as="geometry">
+            <mxPoint x="8" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-133" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-127" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.037;exitY=0.289;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Retorna { id: 10, password_hash: &quot;$2b$10$...&quot;, is_locked: 0, role: &quot;TECNICO&quot; }">
+          <mxGeometry relative="1" x="-0.03" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1381.5" y="911.4" as="sourcePoint" />
+            <mxPoint x="635" y="909" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-134" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-123" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1337" y="746" as="sourcePoint" />
+            <mxPoint x="1337" y="1157.92" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-135" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.964;entryY=0.887;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. 200 OK { success: true, token: &quot;jwt_session_token&quot;, user:&amp;nbsp;&lt;div&gt;{ id: 10, role: &quot;TECNICO&quot; }, message: &quot;Autenticación exitosa.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Contador de fallos restablecido.&quot; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0035" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="627.0500000000002" y="1080.409" as="sourcePoint" />
+            <mxPoint x="190.9999999999999" y="1079.999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-136" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.117;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.027;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" value="10. Visualiza la plataforma con sesión activa en su panel correspondiente">
+          <mxGeometry relative="1" x="-0.0069" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="179.55999999999992" y="1139.125" as="sourcePoint" />
+            <mxPoint x="-226.00000000000003" y="1139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-137" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_EmailNotification" vertex="1">
+          <mxGeometry height="40" width="168" x="1428" y="706" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-139" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1512.0000000000005" y="746" as="sourcePoint" />
+            <mxPoint x="1514.11" y="1158.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-140" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Compara contraseña (bcrypt.compare === true) -&amp;gt; Credenciales correctas antes de llegar al umbral de 5">
+          <mxGeometry relative="1" x="0.0174" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="686" y="933" />
+              <mxPoint x="686" y="955" />
+            </Array>
+            <mxPoint x="636" y="933" as="sourcePoint" />
+            <mxPoint x="636" y="955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-141" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.022;entryY=0.766;entryDx=0;entryDy=0;entryPerimeter=0;" target="l_1P6a8qIhUbBJwIfXmz-127" value="">
+          <mxGeometry relative="1" x="0.1735" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="636.9999999999999" y="1011.9550000000002" as="sourcePoint" />
+            <mxPoint x="1380.99" y="1011" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-142" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-141" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6. START TRANSACTION; DELETE FROM intento_login WHERE username = &#39;carlos_tecnico&#39; AND&lt;div&gt;success = 0; INSERT INTO intento_login (username, ip_address, success, created_at) VALUES (&#39;carlos_tecnico&#39;, &#39;192.168.1.45&#39;, 1, NOW());&amp;nbsp;&lt;/div&gt;&lt;div&gt;INSERT INTO sesion_activa (user_id, is_connected, last_seen) VALUES (10, 1, NOW()); COMMIT;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0413" y="3" as="geometry">
+            <mxPoint x="14" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-143" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-127" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.041;exitY=0.952;exitDx=0;exitDy=0;exitPerimeter=0;" value="7. Confirma reinicio del contador de fallos y registro de sesión activa">
+          <mxGeometry relative="1" x="-0.0296" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1382" y="1050" as="sourcePoint" />
+            <mxPoint x="635" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-147" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="9. Alpine.js guarda token de sesión y redirige al panel de inicio del usuario">
+          <mxGeometry relative="1" x="0.0902" y="10" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="241" y="1098" />
+              <mxPoint x="241" y="1120" />
+            </Array>
+            <mxPoint x="191" y="1098" as="sourcePoint" />
+            <mxPoint x="191" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-148" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="1858" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-149" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1873" y="154" as="sourcePoint" />
+            <mxPoint x="1871.33" y="592.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Login" vertex="1">
+          <mxGeometry height="40" width="110" x="2303" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-151" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2359" y="120" as="sourcePoint" />
+            <mxPoint x="2359" y="589.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-152" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_AuthController" vertex="1">
+          <mxGeometry height="40" width="155" x="2729" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-153" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2805" y="117" as="sourcePoint" />
+            <mxPoint x="2804.76" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-154" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="3494" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-155" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="428" width="10" x="1868" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-156" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="411" width="10" x="2354" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-157" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="318" width="10" x="2800" y="201" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-158" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="209" width="10" x="3573" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-159" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-155" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.003;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.033;exitY=0.086;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;1. Ingresa credenciales erróneas por 5ta&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;vez consecutiva y presiona &quot;Iniciar Sesión&quot;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="-0.0062" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1948.4099999999999" y="192.72699999999998" as="sourcePoint" />
+            <mxPoint x="2354.0299999999997" y="192.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-160" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.17;exitY=0.138;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.06;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="0.0035" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2365.0000000000005" y="208.442" as="sourcePoint" />
+            <mxPoint x="2798.7" y="206.99900000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-161" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-160" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. POST /api/auth/login { username: &quot;admin_general&quot;,&amp;nbsp;&lt;div&gt;password: &quot;wrong_password&quot;, ip: &quot;192.168.1.10&quot; }&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1812" y="3" as="geometry">
+            <mxPoint x="39" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-162" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.002;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" target="l_1P6a8qIhUbBJwIfXmz-158" value="">
+          <mxGeometry relative="1" x="0.1647" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2809" y="236.94500000000016" as="sourcePoint" />
+            <mxPoint x="3543" y="240.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-163" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-162" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. INSERT INTO intento_login (username, ip_address, success, created_at) VALUES (&#39;admin_general&#39;, &#39;192.168.1.10&#39;, 0, NOW()); SELECT u.role,&amp;nbsp;&lt;div&gt;COUNT(i.id) AS failed_count FROM user u LEFT JOIN intento_login i ON i.username = u.username WHERE u.username =&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;admin_general&#39; AND i.created_at &amp;gt; DATE_SUB(NOW(), INTERVAL 15 MINUTE)&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;AND i.success = 0 GROUP BY u.role;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0468" y="3" as="geometry">
+            <mxPoint x="28" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-164" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-158" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.037;exitY=0.289;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Retorna { role: &quot;ADMINISTRADOR&quot;, failed_count: 5 }">
+          <mxGeometry relative="1" x="-0.03" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3555.5" y="281.4" as="sourcePoint" />
+            <mxPoint x="2809" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-165" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-154" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3578" y="112" as="sourcePoint" />
+            <mxPoint x="3578" y="568.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-166" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.964;entryY=0.887;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;" value="10. 423 Locked { success: false, error: &quot;ADMIN_ACCOUNT_LOCKED_MANUAL&quot;,&lt;div&gt;&amp;nbsp;requiresManualUnlock: true, message: &quot;Cuenta de administrador bloqueada de&lt;/div&gt;&lt;div&gt;&amp;nbsp;forma estricta. Requiere desbloqueo manual de seguridad.&quot; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0032" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2799.05" y="511.4090000000001" as="sourcePoint" />
+            <mxPoint x="2363" y="510.999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-167" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.117;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.979;entryY=0.951;entryDx=0;entryDy=0;entryPerimeter=0;" target="l_1P6a8qIhUbBJwIfXmz-155" value="12. Despliega aviso en interfaz: &quot;Acceso bloqueado por seguridad:&amp;nbsp;&lt;div&gt;Al tratarse de una cuenta con privilegios administrativos, no se aplica desbloqueo automático.&lt;/div&gt;&lt;div&gt;&amp;nbsp;Debe contactar al soporte de infraestructura para su desbloqueo manual.&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0117" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2353.56" y="563.125" as="sourcePoint" />
+            <mxPoint x="1948" y="563" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-168" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_EmailNotification" vertex="1">
+          <mxGeometry height="40" width="168" x="3669" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-169" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3753.0000000000005" y="112" as="sourcePoint" />
+            <mxPoint x="3755.11" y="575.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-170" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Evalúa política de rol: role === &#39;ADMINISTRADOR&#39; -&amp;gt; Omite temporizador de 30 min y exige bloqueo manual estricto">
+          <mxGeometry relative="1" x="0.0174" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2860" y="303" />
+              <mxPoint x="2860" y="325" />
+            </Array>
+            <mxPoint x="2810" y="303" as="sourcePoint" />
+            <mxPoint x="2810" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-171" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.022;entryY=0.766;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="l_1P6a8qIhUbBJwIfXmz-158" value="">
+          <mxGeometry relative="1" x="0.1735" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2811" y="381.95500000000015" as="sourcePoint" />
+            <mxPoint x="3554.99" y="381" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-172" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-171" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6. START TRANSACTION; UPDATE user SET is_locked = 1, locked_until = NULL, requires_manual_unlock = 1 WHERE username =&lt;div&gt;&amp;nbsp;&#39;admin_general&#39;; INSERT INTO bitacora (action, ip_address, details, created_at) VALUES (&#39;ADMIN_ACCOUNT_MANUAL_LOCKOUT&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;192.168.1.10&#39;, &#39;Bloqueo indefinido de administrador por 5 fallos:&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;requiere desbloqueo manual&#39;, NOW()); COMMIT;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0413" y="3" as="geometry">
+            <mxPoint x="14" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-173" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-158" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.041;exitY=0.952;exitDx=0;exitDy=0;exitPerimeter=0;" value="7. Confirma bloqueo manual y registro de auditoría de alta seguridad">
+          <mxGeometry relative="1" x="-0.0296" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3556" y="420" as="sourcePoint" />
+            <mxPoint x="2809" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-174" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="11. Alpine.js inhabilita el formulario de acceso sin&lt;div&gt;&amp;nbsp;temporizador regresivo de reapertura automática&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0902" y="10" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="2415" y="532" />
+              <mxPoint x="2415" y="554" />
+            </Array>
+            <mxPoint x="2365" y="532" as="sourcePoint" />
+            <mxPoint x="2365" y="554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-175" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=-0.054;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0449" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2812" y="462.66500000000013" as="sourcePoint" />
+            <mxPoint x="3749.46" y="459.998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-176" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-175" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8. sendCriticalSecurityAlert({ email: &quot;admin@clinica.cl&quot;, subject: &quot;INCIDENTE CRÍTICO: Cuenta de Administrador Bloqueada&quot;,&amp;nbsp;&lt;div&gt;details: &quot;Se requiere desbloqueo manual por superadministrador o consola&quot;, ip: &quot;192.168.1.10&quot; })&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2201" y="3" as="geometry">
+            <mxPoint x="76" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-178" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="76" width="10" x="3749" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-181" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-178" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.117;exitY=0.682;exitDx=0;exitDy=0;exitPerimeter=0;" value="9. Confirma despacho de correo de alta prioridad">
+          <mxGeometry relative="1" x="0.161" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3575" y="498" as="sourcePoint" />
+            <mxPoint x="2811" y="501" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-183" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="1832" y="736" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-184" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1847" y="825" as="sourcePoint" />
+            <mxPoint x="1847" y="1382.92" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-185" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Login" vertex="1">
+          <mxGeometry height="40" width="110" x="2307" y="748" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-186" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2363" y="790" as="sourcePoint" />
+            <mxPoint x="2363" y="1374.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-187" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_AuthController" vertex="1">
+          <mxGeometry height="40" width="155" x="2733" y="746" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-188" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2809" y="787" as="sourcePoint" />
+            <mxPoint x="2808.76" y="1328.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-189" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="3498" y="742" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-190" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="525" width="10" x="1842" y="827" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-191" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="519" width="10" x="2358" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-192" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="427" width="10" x="2804" y="871" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-193" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="158" width="10" x="3577" y="888" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-194" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-190" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.003;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.25;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;1. Ingresa credenciales erróneas por 5ta vez consecutiva y presiona &quot;Iniciar Sesión&quot;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="-0.0062" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1952.4099999999999" y="862.727" as="sourcePoint" />
+            <mxPoint x="2358.0299999999997" y="862.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-195" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.17;exitY=0.138;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.06;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="0.0035" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2369.0000000000005" y="878.442" as="sourcePoint" />
+            <mxPoint x="2802.7" y="876.999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-196" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-195" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. POST /api/auth/login { username: &quot;tecnico_box&quot;,&lt;div&gt;password: &quot;wrong_password&quot;, ip: &quot;192.168.1.45&quot; }&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1812" y="3" as="geometry">
+            <mxPoint x="39" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-197" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.002;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="0.1647" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2812" y="906.9450000000002" as="sourcePoint" />
+            <mxPoint x="3575.9799999999996" y="905.9740000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-198" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-197" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. INSERT INTO intento_login (username, ip_address, success, created_at) VALUES (&#39;tecnico_box&#39;, &#39;192.168.1.45&#39;, 0, NOW());&amp;nbsp;&lt;div&gt;SELECT COUNT(*) AS failed_count FROM intento_login WHERE username = &#39;tecnico_box&#39; AND created_at &amp;gt; DATE_SUB(NOW(),&amp;nbsp;&lt;/div&gt;&lt;div&gt;INTERVAL 15 MINUTE) AND success = 0;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0468" y="3" as="geometry">
+            <mxPoint x="28" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-199" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.037;exitY=0.289;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Retorna { failed_count: 5 } (Umbral alcanzado: 5 intentos fallidos)">
+          <mxGeometry relative="1" x="-0.03" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3575.63" y="948.4010000000001" as="sourcePoint" />
+            <mxPoint x="2812" y="949" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-200" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-189" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3582" y="782" as="sourcePoint" />
+            <mxPoint x="3583.97" y="1331.92" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-201" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.964;entryY=0.887;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;" value="12. 423 Locked { success: false, error: &quot;ACCOUNT_TEMPORARILY_LOCKED&quot;,&amp;nbsp;&lt;div&gt;lockDurationMinutes: 30, message: &quot;Cuenta bloqueada temporalmente por 30 minutos&amp;nbsp;&lt;/div&gt;&lt;div&gt;debido a 5 intentos fallidos consecutivos.&quot; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0032" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2803.05" y="1262.409" as="sourcePoint" />
+            <mxPoint x="2367" y="1261.999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-202" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.117;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.954;entryDx=0;entryDy=0;entryPerimeter=0;" target="l_1P6a8qIhUbBJwIfXmz-190" value="14. Despliega aviso en interfaz: &quot;Acceso bloqueado:&amp;nbsp;&lt;div&gt;Ha superado el límite de 5 intentos fallidos. Su cuenta permanecerá inhabilitada durante 30 minutos.&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0146" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2358.77" y="1327.095" as="sourcePoint" />
+            <mxPoint x="1883.0000000000005" y="1326.9980000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-203" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_EmailNotification" vertex="1">
+          <mxGeometry height="40" width="168" x="3673" y="742" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-204" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3757.0000000000005" y="782" as="sourcePoint" />
+            <mxPoint x="3759.11" y="1245.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-206" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.022;entryY=0.766;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
+          <mxGeometry relative="1" x="0.1735" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2817" y="1006.8650000000001" as="sourcePoint" />
+            <mxPoint x="3578.7799999999997" y="1003.004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-207" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-206" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. START TRANSACTION; UPDATE user SET is_locked = 1, locked_until = DATE_ADD(NOW(), INTERVAL 30 MINUTE)&amp;nbsp;&lt;div&gt;WHERE username = &#39;tecnico_box&#39;; INSERT INTO bitacora (action, ip_address, details, created_at) VALUES (&#39;ACCOUNT_TEMPORARY_LOCKOUT&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&#39;192.168.1.45&#39;, &#39;Bloqueo de 30 min por 5 fallos consecutivos&#39;, NOW()); COMMIT;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0413" y="3" as="geometry">
+            <mxPoint x="14" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-208" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.041;exitY=0.952;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Confirma transacción: cuenta bloqueada y auditoría registrada">
+          <mxGeometry relative="1" x="-0.0296" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3577.59" y="1036.9979999999998" as="sourcePoint" />
+            <mxPoint x="2814" y="1040.03" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-209" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="13. Alpine.js desactiva inputs e&amp;nbsp;&lt;div&gt;inicializa temporizador regresivo de 30 minutos&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0902" y="10" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="2417" y="1292" />
+              <mxPoint x="2417" y="1314" />
+            </Array>
+            <mxPoint x="2367" y="1292" as="sourcePoint" />
+            <mxPoint x="2367" y="1314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-210" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=-0.054;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0449" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2816" y="1083.6650000000002" as="sourcePoint" />
+            <mxPoint x="3753.46" y="1080.998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-211" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-210" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7. sendSecurityAlert({ email: &quot;tecnico@clinica.cl&quot;, subject: &quot;Alerta de seguridad: Cuenta bloqueada&quot;, ip: &quot;192.168.1.45&quot; })" vertex="1">
+          <mxGeometry relative="1" x="-0.2201" y="3" as="geometry">
+            <mxPoint x="76" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-212" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="76" width="10" x="3753" y="1066" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-213" edge="1" parent="1" source="l_1P6a8qIhUbBJwIfXmz-212" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.117;exitY=0.682;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Error: SMTPConnectionError / Timeout (Fallo de conexión con servidor de correo)">
+          <mxGeometry relative="1" x="0.161" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3579" y="1119" as="sourcePoint" />
+            <mxPoint x="2815" y="1122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-215" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="9. Captura excepción de transporte: mantiene bloqueo activo en user y preserva política de seguridad">
+          <mxGeometry relative="1" x="0.0984" y="10" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="2865" y="1146" />
+              <mxPoint x="2865" y="1168" />
+            </Array>
+            <mxPoint x="2815" y="1146" as="sourcePoint" />
+            <mxPoint x="2815" y="1168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-216" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="89" width="10" x="3579" y="1193" as="geometry" />
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-217" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.108;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.022;entryY=0.766;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
+          <mxGeometry relative="1" x="0.1735" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2818" y="1207.8650000000002" as="sourcePoint" />
+            <mxPoint x="3579.7799999999997" y="1204.004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-218" connectable="0" parent="l_1P6a8qIhUbBJwIfXmz-217" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="10. INSERT INTO bitacora (action, details, created_at) VALUES (&#39;SECURITY_EMAIL_DISPATCH_FAILED&#39;,&amp;nbsp;&lt;div&gt;&#39;Fallo de entrega de correo de alerta a tecnico@clinica.cl tras bloqueo de cuenta&#39;, NOW());&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0413" y="3" as="geometry">
+            <mxPoint x="14" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_1P6a8qIhUbBJwIfXmz-220" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.041;exitY=0.952;exitDx=0;exitDy=0;exitPerimeter=0;" value="11. Confirma registro de error en el log de auditoría">
+          <mxGeometry relative="1" x="-0.0296" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3579.59" y="1231.9979999999998" as="sourcePoint" />
+            <mxPoint x="2816" y="1235.03" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

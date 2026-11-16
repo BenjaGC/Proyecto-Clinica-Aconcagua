@@ -1,0 +1,55 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="jNCp5jTPJ6i50Ouoi_bC">
+    <mxGraphModel dx="1414" dy="2044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9RZS-AyOG2QNzn-o32Jz-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;rotation=-90;" value="" vertex="1">
+          <mxGeometry height="593.75" width="484" x="170" y="-26.87" as="geometry" />
+        </mxCell>
+        <mxCell id="9RZS-AyOG2QNzn-o32Jz-7" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);strokeWidth=2;" target="SAfyZ9AyKIvLJC9o6J0l-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9RZS-AyOG2QNzn-o32Jz-17" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);strokeWidth=2;" target="lc3o-QNi680aYxZYvMMM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=light-dark(#000000,#000000);" value="" vertex="1">
+          <mxGeometry height="70" width="40" x="60" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="9RZS-AyOG2QNzn-o32Jz-12" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);strokeWidth=2;" target="9RZS-AyOG2QNzn-o32Jz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-5" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Usuario Publico&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="50" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Filtrando catálogo de planes por segmento&lt;br&gt;&lt;div&gt;&lt;div&gt;CU-15&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SAfyZ9AyKIvLJC9o6J0l-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2 style=&quot;font-style: normal; font-variant: normal; font-size-adjust: none; font-language-override: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 22px; line-height: 32px; font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; margin: 32px 0px 16px; color: rgb(249, 250, 251); text-align: start; background-color: rgb(21, 21, 23);&quot;&gt;4. CATÁLOGO Y CONTRATACIÓN&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="400" x="212" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="lc3o-QNi680aYxZYvMMM-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;div&gt;Consultando detalles de los planes de servicio&lt;/div&gt;&lt;div&gt;CU-17&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="230" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9RZS-AyOG2QNzn-o32Jz-21" edge="1" parent="1" source="lc3o-QNi680aYxZYvMMM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);strokeWidth=2;dashed=1;" target="9RZS-AyOG2QNzn-o32Jz-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lc3o-QNi680aYxZYvMMM-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Iniciando solicitud de contratacion de un plan&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;CU-18&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="250" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="9RZS-AyOG2QNzn-o32Jz-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font color=&quot;#000000&quot;&gt;Consultando ofertas y servicios corporativos&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;CU-19&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="250" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="9RZS-AyOG2QNzn-o32Jz-16" edge="1" parent="1" source="SAfyZ9AyKIvLJC9o6J0l-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.025;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#000000);strokeWidth=2;" target="lc3o-QNi680aYxZYvMMM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9RZS-AyOG2QNzn-o32Jz-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font color=&quot;#000000&quot;&gt;Validar disponibilidad del plan&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="150" x="530" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="9RZS-AyOG2QNzn-o32Jz-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font style=&quot;&quot;&gt;&amp;lt;&amp;lt;Include&amp;gt;&lt;/font&gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,758 @@
+<mxfile host="Electron">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="1824" dy="1454" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="&lt;i&gt;&lt;span style=&quot;font-size:9.0pt;font-family:&amp;quot;Arial&amp;quot;,sans-serif;&lt;br/&gt;mso-fareast-font-family:Arial;mso-ansi-language:ES-CL;mso-fareast-language:&lt;br/&gt;ES-CL;mso-bidi-language:AR-SA&quot;&gt;CU-67 – Flujo principal&lt;/span&gt;&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="723" x="66" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_a" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="30" x="59" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_a" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74" y="148" as="sourcePoint" />
+            <mxPoint x="74" y="592.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_TaskScheduler" vertex="1">
+          <mxGeometry height="40" width="142" x="420" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_v" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="491" y="114" as="sourcePoint" />
+            <mxPoint x="491" y="590.32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_TrazaMaintenanceController" vertex="1">
+          <mxGeometry height="40" width="232" x="822" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_s" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="937" y="111" as="sourcePoint" />
+            <mxPoint x="936.76" y="596.61" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_BackupStorage" vertex="1">
+          <mxGeometry height="40" width="136" x="1522" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_a" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="425" width="10" x="69" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="402" width="10" x="486" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="370" width="10" x="932" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="55" width="10" x="1585" y="359" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_m0" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.003;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;1. Dispara evento de mantenimiento semestral programado&lt;/code&gt;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="-0.008" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="80.41000000000008" y="186.72699999999998" as="sourcePoint" />
+            <mxPoint x="486.03" y="186.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_m1" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.17;exitY=0.138;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.06;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="0.0035" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="498.7000000000003" y="215.89199999999994" as="sourcePoint" />
+            <mxPoint x="932.4000000000001" y="214.44900000000007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-115" connectable="0" parent="d0_m1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. executeRoutine(&quot;MantenimientoTablasTraza&quot;)" vertex="1">
+          <mxGeometry relative="1" x="-0.1812" y="3" as="geometry">
+            <mxPoint x="29" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-134" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="&lt;i&gt;&lt;span style=&quot;font-size:9.0pt;font-family:&amp;quot;Arial&amp;quot;,sans-serif;&lt;br/&gt;mso-fareast-font-family:Arial;mso-ansi-language:ES-CL;mso-fareast-language:&lt;br/&gt;ES-CL;mso-bidi-language:AR-SA&quot;&gt;CU-67 – Excepción 1&lt;/span&gt;&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="723" x="364" y="812" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-135" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="&lt;i&gt;&lt;span style=&quot;font-size:9.0pt;font-family:&amp;quot;Arial&amp;quot;,sans-serif;&lt;br/&gt;mso-fareast-font-family:Arial;mso-ansi-language:ES-CL;mso-fareast-language:&lt;br/&gt;ES-CL;mso-bidi-language:AR-SA&quot;&gt;CU-67 – Excepción 2&lt;/span&gt;&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="452" x="2535" y="-11" as="geometry" />
+        </mxCell>
+        <mxCell id="LSGTz4Vfso89_mCbXE9f-5" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.346;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.057;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" target="ND9U-nWoZP1KwnxcbCgr-11" value="">
+          <mxGeometry relative="1" x="-0.0005" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="942" y="228.90999999999994" as="sourcePoint" />
+            <mxPoint x="1745.0299999999997" y="228.004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSGTz4Vfso89_mCbXE9f-6" connectable="0" parent="LSGTz4Vfso89_mCbXE9f-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. SELECT retention_period_months FROM politica_retencion WHERE table_target = &#39;bitacora&#39; AND is_active = 1;" vertex="1">
+          <mxGeometry relative="1" x="-0.1841" y="3" as="geometry">
+            <mxPoint x="55" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSGTz4Vfso89_mCbXE9f-103" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.127;entryY=0.468;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="0.0035" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="943" y="371.9049999999999" as="sourcePoint" />
+            <mxPoint x="1584.7299999999996" y="369.90800000000013" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSGTz4Vfso89_mCbXE9f-104" connectable="0" parent="LSGTz4Vfso89_mCbXE9f-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7. generateCompressedArchive({ data: auditRecords, filename: &quot;audit_backup_2026_S2.tar.gz&quot; })" vertex="1">
+          <mxGeometry relative="1" x="-0.1812" y="3" as="geometry">
+            <mxPoint x="64" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSGTz4Vfso89_mCbXE9f-106" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.055;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.026;exitY=0.565;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Confirma creación: { status: &#39;OK&#39;, filePath: &#39;/backups/audit_backup_2026_S2.tar.gz&#39;, sha256: &#39;a1f8c4...&#39; }">
+          <mxGeometry relative="1" x="0.0036" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1585.7399999999998" y="402.0150000000001" as="sourcePoint" />
+            <mxPoint x="942.5500000000002" y="403.655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_ll_db" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="109" as="sourcePoint" />
+            <mxPoint x="1590" y="566.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-2" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.093;exitY=0.102;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.041;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. 200 OK { success: true, travelId: 512, startTime: &quot;10:15:00&quot; }">
+          <mxGeometry relative="1" x="-0.0028" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="932.0700000000002" y="306.004" as="sourcePoint" />
+            <mxPoint x="497.40999999999985" y="307.93399999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-76" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="&lt;b&gt;&lt;span style=&quot;font-size:9.0pt;line-height:115%;&lt;br/&gt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Arial;mso-ansi-language:&lt;br/&gt;ES-CL;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;CU-67 – Excepción 3&lt;/span&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="723" x="2458" y="692" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-111" edge="1" parent="1" source="ND9U-nWoZP1KwnxcbCgr-11" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.06;exitY=0.123;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Retorna { retention_period_months: 24 } (Política activa de 2 años)">
+          <mxGeometry relative="1" x="0.0035" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1746.6" y="260.00399999999985" as="sourcePoint" />
+            <mxPoint x="942" y="261.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-114" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.929;entryY=0.489;entryDx=0;entryDy=0;entryPerimeter=0;" value="6. Despliega cronómetro de traslado activo y habilita botón &quot;Marcar llegada&quot;">
+          <mxGeometry relative="1" x="0.0005" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="485.71" y="324.46" as="sourcePoint" />
+            <mxPoint x="77.99999999999973" y="323.99899999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-115" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.989;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.07;exitY=0.69;exitDx=0;exitDy=0;exitPerimeter=0;" value="13. Cierra ciclo y programa próxima ejecución para el siguiente semestre">
+          <mxGeometry relative="1" x="-0.0209" y="-2" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="484.4100000000002" y="558.9999999999998" as="sourcePoint" />
+            <mxPoint x="77.99999999999964" y="559.9649999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-116" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="30" x="123" y="897" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-117" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="138" y="986" as="sourcePoint" />
+            <mxPoint x="138" y="1285.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-118" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_TaskScheduler" vertex="1">
+          <mxGeometry height="40" width="142" x="494" y="911" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-119" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="951" as="sourcePoint" />
+            <mxPoint x="565" y="1284.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-120" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_TrazaMaintenanceController" vertex="1">
+          <mxGeometry height="40" width="232" x="819" y="907" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-121" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="934" y="948" as="sourcePoint" />
+            <mxPoint x="933.76" y="1275.11" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-122" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_BackupStorage" vertex="1">
+          <mxGeometry height="40" width="168" x="1278" y="906" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="264" width="10" x="133" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="257" width="10" x="560" y="993" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-125" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="220" width="10" x="929" y="1009" as="geometry" />
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-130" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.081;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" target="ND9U-nWoZP1KwnxcbCgr-22" value="">
+          <mxGeometry relative="1" x="-0.2395" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="939" y="1032.005" as="sourcePoint" />
+            <mxPoint x="1652.5099999999998" y="1032.007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-131" connectable="0" parent="TZWgmRDGuZkw4-vjBlUF-130" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. SELECT retention_period_months FROM politica_retencion&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;WHERE table_target = &#39;bitacora&#39; AND is_active = 1;&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3808" y="3" as="geometry">
+            <mxPoint x="112" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-132" edge="1" parent="1" source="TZWgmRDGuZkw4-vjBlUF-125" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.939;exitY=0.664;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="ND9U-nWoZP1KwnxcbCgr-22" value="">
+          <mxGeometry relative="1" x="0.0047" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="939" y="1157.905" as="sourcePoint" />
+            <mxPoint x="1472.3400000000001" y="1156.7420000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-133" connectable="0" parent="TZWgmRDGuZkw4-vjBlUF-132" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6. INSERT INTO log_sistema (event, error_code, details, created_at) VALUES&amp;nbsp;&lt;div&gt;(&#39;MAINTENANCE_CANCELLED&#39;, &#39;NO_RETENTION_POLICY&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;Tarea cancelada: no existe política de retención activa para la tabla bitacora&#39;, NOW());&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.18" y="3" as="geometry">
+            <mxPoint x="32" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-134" edge="1" parent="1" source="ND9U-nWoZP1KwnxcbCgr-22" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.055;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.152;exitY=0.934;exitDx=0;exitDy=0;exitPerimeter=0;" value="7. Confirma registro de cancelación en el log del sistema">
+          <mxGeometry relative="1" x="0.0044" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1472.3400000000001" y="1187.85" as="sourcePoint" />
+            <mxPoint x="938.5500000000002" y="1189.655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-135" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1362" y="946" as="sourcePoint" />
+            <mxPoint x="1360.02" y="1271.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-137" edge="1" parent="1" source="TZWgmRDGuZkw4-vjBlUF-125" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.078;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.17;exitY=0.932;exitDx=0;exitDy=0;exitPerimeter=0;" target="TZWgmRDGuZkw4-vjBlUF-124" value="8. Retorna ejecución fallida:&amp;nbsp;&lt;div&gt;{ status: &#39;CANCELLED&#39;, reason: &#39;MISSING_RETENTION_POLICY&#39; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0037" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="928.3700000000003" y="1209.997" as="sourcePoint" />
+            <mxPoint x="492.00000000000006" y="1213.716" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-138" edge="1" parent="1" source="ND9U-nWoZP1KwnxcbCgr-22" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.055;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="4. Retorna Empty set (No existe política de retención configurada)">
+          <mxGeometry relative="1" x="0.0047" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1471.3000000000002" y="1056.55" as="sourcePoint" />
+            <mxPoint x="938" y="1059" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-139" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Evalúa precondición: !policyExists -&amp;gt; Cancela tarea de purga por seguridad operativa">
+          <mxGeometry relative="1" x="-0.9164" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="989" y="1091" />
+              <mxPoint x="989" y="1113" />
+            </Array>
+            <mxPoint x="939" y="1091" as="sourcePoint" />
+            <mxPoint x="939" y="1113" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZWgmRDGuZkw4-vjBlUF-142" edge="1" parent="1" source="TZWgmRDGuZkw4-vjBlUF-124" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.071;entryY=0.959;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.048;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" target="TZWgmRDGuZkw4-vjBlUF-123" value="9. Cierra ejecución sin modificaciones&lt;div&gt;en la base operativa y finaliza rutina semestral&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0039" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="559.8100000000002" y="1239.9999999999998" as="sourcePoint" />
+            <mxPoint x="141.99999999999977" y="1242.5040000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-1" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.003;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;p style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;code style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;7. Arriba a destino, escanea código QR del box/piso y presiona &quot;Marcar llegada&quot;&lt;/code&gt;&lt;/p&gt;&lt;p id=&quot;p-rc_05c7d6bcbc87e7b5-342&quot; style=&quot;font-family: &amp;quot;Google Sans Text&amp;quot;, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important;&quot;&gt;&lt;sup class=&quot;superscript&quot; style=&quot;line-height: 1.15 !important; margin-top: 0px !important; margin-left: 0px !important; margin-right: 0px !important; font-size: 16px !important; background-color: transparent !important;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;   &lt;/p&gt;">
+          <mxGeometry relative="1" x="-0.0069" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="80.00000000000009" y="359.467" as="sourcePoint" />
+            <mxPoint x="485.61999999999995" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-2" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.17;exitY=0.138;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="0.0112" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="496.0000000000003" y="383.44199999999995" as="sourcePoint" />
+            <mxPoint x="927.15" y="382.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-3" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8. POST /api/tickets/204/travel/arrive&amp;nbsp;&lt;div&gt;{ travelId: 512, qrToken: &quot;BOX-302-PABELLON&quot;, coords: { lat: -33.432, lng: -70.612 } }&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1743" y="3" as="geometry">
+            <mxPoint x="37" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-4" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="9. verifyArchiveIntegrity(filePath, sha256) -&amp;gt; Respaldo íntegro y validado">
+          <mxGeometry relative="1" x="-0.5144" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="991" y="434" />
+              <mxPoint x="991" y="456" />
+            </Array>
+            <mxPoint x="941" y="434" as="sourcePoint" />
+            <mxPoint x="941" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-5" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.012;entryY=0.784;entryDx=0;entryDy=0;entryPerimeter=0;" target="ND9U-nWoZP1KwnxcbCgr-11" value="">
+          <mxGeometry relative="1" x="-0.2144" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="942.12" y="480.99" as="sourcePoint" />
+            <mxPoint x="1582.7200000000003" y="479.05600000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-6" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="10. START TRANSACTION; DELETE FROM bitacora WHERE created_at &amp;lt; DATE_SUB(NOW(),&amp;nbsp;&lt;div&gt;INTERVAL 24 MONTH); INSERT INTO log_sistema (event, rows_deleted, backup_file, created_at) VALUES&amp;nbsp;&lt;/div&gt;&lt;div&gt;(&#39;MAINTENANCE_PURGE_SUCCESS&#39;, 45210, &#39;audit_backup_2026_S2.tar.gz&#39;, NOW()); COMMIT;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3581" y="3" as="geometry">
+            <mxPoint x="119" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-7" edge="1" parent="1" source="ND9U-nWoZP1KwnxcbCgr-11" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.055;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.114;exitY=0.919;exitDx=0;exitDy=0;exitPerimeter=0;" value="11. Confirma transacción: 45,210 filas eliminadas y ejecución asentada en log_sistema">
+          <mxGeometry relative="1" x="0.0036" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1585.1899999999998" y="521.9950000000001" as="sourcePoint" />
+            <mxPoint x="942.0000000000002" y="523.635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-8" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.093;exitY=0.102;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.041;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;" value="12. Notifica conclusión: { status: &#39;COMPLETED&#39;,&amp;nbsp;&lt;div&gt;deletedRows: 45210, backup: &#39;audit_backup_2026_S2.tar.gz&#39; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0028" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="930.6600000000002" y="548.004" as="sourcePoint" />
+            <mxPoint x="495.99999999999983" y="549.934" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="136" x="1685" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="332" width="10" x="1749" y="219" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-12" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1753" y="110" as="sourcePoint" />
+            <mxPoint x="1753" y="567.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-14" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.346;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.057;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0005" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="943" y="297.90999999999997" as="sourcePoint" />
+            <mxPoint x="1749" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-15" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. SELECT id, action, details, created_at FROM bitacora WHERE created_at &amp;lt; DATE_SUB(NOW(), INTERVAL 24 MONTH);" vertex="1">
+          <mxGeometry relative="1" x="-0.1841" y="3" as="geometry">
+            <mxPoint x="55" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-16" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.06;exitY=0.123;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Retorna dataset de registros fuera de rango (ej. 45,210 filas de auditoría)">
+          <mxGeometry relative="1" x="0.0035" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1749" y="329" as="sourcePoint" />
+            <mxPoint x="943" y="330.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1457" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="193" width="10" x="1536" y="1009" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1541" y="945" as="sourcePoint" />
+            <mxPoint x="1541" y="1281.34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-24" edge="1" parent="1" source="TZWgmRDGuZkw4-vjBlUF-123" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.085;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.034;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" target="TZWgmRDGuZkw4-vjBlUF-124" value="">
+          <mxGeometry relative="1" x="-0.0037" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="142" y="1015.105" as="sourcePoint" />
+            <mxPoint x="558.3699999999999" y="1011.113" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-25" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. Dispara evento de mantenimiento semestral programado" vertex="1">
+          <mxGeometry relative="1" x="-0.1912" y="3" as="geometry">
+            <mxPoint x="55" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-26" edge="1" parent="1" source="TZWgmRDGuZkw4-vjBlUF-124" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.073;exitY=0.127;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.126;entryY=0.062;entryDx=0;entryDy=0;entryPerimeter=0;" target="TZWgmRDGuZkw4-vjBlUF-125" value="">
+          <mxGeometry relative="1" x="0.0046" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="493" y="1028.105" as="sourcePoint" />
+            <mxPoint x="924.68" y="1025.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-27" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. executeRoutine(&quot;MantenimientoTablasTraza&quot;)" vertex="1">
+          <mxGeometry relative="1" x="-0.1844" y="3" as="geometry">
+            <mxPoint x="31" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-29" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="30" x="2228" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-30" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2243" y="168" as="sourcePoint" />
+            <mxPoint x="2243" y="494.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_TaskScheduler" vertex="1">
+          <mxGeometry height="40" width="142" x="2599" y="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-32" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2670" y="133" as="sourcePoint" />
+            <mxPoint x="2670" y="483.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_TrazaMaintenanceController" vertex="1">
+          <mxGeometry height="40" width="232" x="2924" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-34" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3039" y="130" as="sourcePoint" />
+            <mxPoint x="3038.76" y="485.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_BackupStorage" vertex="1">
+          <mxGeometry height="40" width="168" x="3383" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="307" width="10" x="2238" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="293" width="10" x="2665" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="273" width="10" x="3034" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-39" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.081;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.2395" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3043" y="214.0050000000001" as="sourcePoint" />
+            <mxPoint x="3639.1900000000005" y="214.54600000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-40" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. SELECT retention_period_months FROM politica_retencion WHERE table_target = &#39;bitacora&#39; AND is_active = 1;" vertex="1">
+          <mxGeometry relative="1" x="-0.3808" y="3" as="geometry">
+            <mxPoint x="112" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-43" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.055;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.152;exitY=0.934;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Retorna Empty set (0 filas fuera del rango de retención)">
+          <mxGeometry relative="1" x="0.0044" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3638.9300000000003" y="314.0020000000002" as="sourcePoint" />
+            <mxPoint x="3043" y="314.395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-44" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3467" y="128" as="sourcePoint" />
+            <mxPoint x="3467" y="480.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-45" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.078;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.17;exitY=0.932;exitDx=0;exitDy=0;exitPerimeter=0;" value="10. Notifica finalización:&amp;nbsp;&lt;div&gt;{ status: &#39;COMPLETED_NO_CHANGES&#39;, rowsProcessed: 0 }&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0037" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3033.5199999999995" y="448.016" as="sourcePoint" />
+            <mxPoint x="2677" y="446.99899999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-46" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.055;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="4. Retorna { retention_period_months: 24 } (Política activa de 2 años)">
+          <mxGeometry relative="1" x="0.0047" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3640" y="239.25" as="sourcePoint" />
+            <mxPoint x="3042" y="241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-48" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.014;entryY=0.939;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.048;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" target="ND9U-nWoZP1KwnxcbCgr-36" value="11. Cierra ejecución y programa próxima rutina semestral">
+          <mxGeometry relative="1" x="0.0039" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2664.81" y="458.0039999999999" as="sourcePoint" />
+            <mxPoint x="2249" y="460.9459999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="3562" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="257" width="10" x="3641" y="191" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-51" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3646" y="127" as="sourcePoint" />
+            <mxPoint x="3646" y="481.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-52" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.085;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.034;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0037" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2247.85" y="197.08000000000015" as="sourcePoint" />
+            <mxPoint x="2663.66" y="193.50400000000013" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-53" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. Dispara evento de mantenimiento semestral programado" vertex="1">
+          <mxGeometry relative="1" x="-0.1912" y="3" as="geometry">
+            <mxPoint x="55" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-54" edge="1" parent="1" source="ND9U-nWoZP1KwnxcbCgr-37" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.126;entryY=0.062;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0033" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2674.73" y="207.63900000000012" as="sourcePoint" />
+            <mxPoint x="3031.74" y="204.82600000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-55" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. executeRoutine(&quot;MantenimientoTablasTraza&quot;)" vertex="1">
+          <mxGeometry relative="1" x="-0.1892" y="3" as="geometry">
+            <mxPoint x="31" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-56" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.081;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.2395" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3045" y="278.9950000000001" as="sourcePoint" />
+            <mxPoint x="3641" y="279.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-57" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. SELECT id FROM bitacora WHERE created_at &amp;lt; DATE_SUB(NOW(), INTERVAL 24 MONTH);" vertex="1">
+          <mxGeometry relative="1" x="-0.3808" y="3" as="geometry">
+            <mxPoint x="112" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-59" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Constata 0 registros obsoletos: omite generación de respaldo y purga física">
+          <mxGeometry relative="1" x="-0.4461" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="3095" y="353" />
+              <mxPoint x="3095" y="375" />
+            </Array>
+            <mxPoint x="3045" y="353" as="sourcePoint" />
+            <mxPoint x="3045" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-60" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.081;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.2395" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3045" y="399.9950000000001" as="sourcePoint" />
+            <mxPoint x="3641" y="400.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-61" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8. INSERT INTO log_sistema (event, rows_deleted, details, created_at) VALUES&amp;nbsp;&lt;div&gt;(&#39;MAINTENANCE_NO_RECORDS&#39;, 0, &#39;Ejecución semestral finalizada sin cambios:&amp;nbsp;&lt;/div&gt;&lt;div&gt;no existen registros de auditoría anteriores a 2 años&#39;, NOW());&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3808" y="3" as="geometry">
+            <mxPoint x="103" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-62" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.087;entryY=0.966;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.152;exitY=0.934;exitDx=0;exitDy=0;exitPerimeter=0;" value="9. Confirma registro de ejecución en log_sistema">
+          <mxGeometry relative="1" x="0.0049" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3640.9300000000003" y="431.0020000000002" as="sourcePoint" />
+            <mxPoint x="3045.87" y="431.5340000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-64" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="30" x="2226" y="774" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-65" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2241" y="863" as="sourcePoint" />
+            <mxPoint x="2241.57" y="1331.93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_TaskScheduler" vertex="1">
+          <mxGeometry height="40" width="142" x="2597" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-67" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2668" y="828" as="sourcePoint" />
+            <mxPoint x="2668" y="1310.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_TrazaMaintenanceController" vertex="1">
+          <mxGeometry height="40" width="232" x="2922" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-69" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3037" y="825" as="sourcePoint" />
+            <mxPoint x="3036.76" y="1308.45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_BackupStorage" vertex="1">
+          <mxGeometry height="40" width="168" x="3381" y="783" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="456" width="10" x="2236" y="867" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="434" width="10" x="2663" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="416" width="10" x="3032" y="886" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-74" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.081;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.2395" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3041" y="909.0050000000001" as="sourcePoint" />
+            <mxPoint x="3637.1900000000005" y="909.546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-75" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. SELECT retention_period_months FROM politica_retencion WHERE table_target = &#39;bitacora&#39; AND is_active = 1;" vertex="1">
+          <mxGeometry relative="1" x="-0.3808" y="3" as="geometry">
+            <mxPoint x="112" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-76" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.055;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.152;exitY=0.934;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Retorna dataset de 45,210 filas de auditoría">
+          <mxGeometry relative="1" x="0.0044" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3636.9300000000003" y="1009.0020000000002" as="sourcePoint" />
+            <mxPoint x="3041" y="1009.395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-77" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3465" y="823" as="sourcePoint" />
+            <mxPoint x="3465" y="1297.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-78" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.078;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.17;exitY=0.932;exitDx=0;exitDy=0;exitPerimeter=0;" value="14. Notifica resultado:&amp;nbsp;&lt;div&gt;{ status: &#39;ABORTED&#39;, error: &#39;BACKUP_FAILED&#39;, rowsPreserved: 45210 }&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0037" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3030.5199999999995" y="1288.016" as="sourcePoint" />
+            <mxPoint x="2674" y="1286.999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-79" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.055;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="4. Retorna { retention_period_months: 24 } (Política activa de 2 años)">
+          <mxGeometry relative="1" x="0.0047" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3638" y="934.25" as="sourcePoint" />
+            <mxPoint x="3040" y="936" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-80" edge="1" parent="1" source="ND9U-nWoZP1KwnxcbCgr-72" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.014;entryY=0.939;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.163;exitY=0.979;exitDx=0;exitDy=0;exitPerimeter=0;" target="ND9U-nWoZP1KwnxcbCgr-71" value="15. Concluye tarea en estado fallido y conserva los datos operativos íntegros">
+          <mxGeometry relative="1" x="0.0019" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2662.81" y="1153.004" as="sourcePoint" />
+            <mxPoint x="2247" y="1155.946" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="3560" y="782" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="340" width="10" x="3639" y="886" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-83" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3644" y="822" as="sourcePoint" />
+            <mxPoint x="3644" y="1296.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-84" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.085;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.034;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0037" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2245.85" y="892.0800000000002" as="sourcePoint" />
+            <mxPoint x="2661.66" y="888.5040000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-85" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-84" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. Dispara evento de mantenimiento semestral programado" vertex="1">
+          <mxGeometry relative="1" x="-0.1912" y="3" as="geometry">
+            <mxPoint x="55" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-86" edge="1" parent="1" source="ND9U-nWoZP1KwnxcbCgr-72" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.095;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.126;entryY=0.062;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0033" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2672.73" y="902.6390000000001" as="sourcePoint" />
+            <mxPoint x="3029.74" y="899.826" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-87" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-86" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. executeRoutine(&quot;MantenimientoTablasTraza&quot;)" vertex="1">
+          <mxGeometry relative="1" x="-0.1892" y="3" as="geometry">
+            <mxPoint x="31" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-88" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.081;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.2395" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3043" y="973.9950000000001" as="sourcePoint" />
+            <mxPoint x="3639" y="974.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-89" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. SELECT id FROM bitacora WHERE created_at &amp;lt; DATE_SUB(NOW(), INTERVAL 24 MONTH);" vertex="1">
+          <mxGeometry relative="1" x="-0.3808" y="3" as="geometry">
+            <mxPoint x="112" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-91" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.037;entryY=0.109;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.409" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3042" y="1054.005" as="sourcePoint" />
+            <mxPoint x="3458.63" y="1055.464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-92" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7. generateCompressedArchive&lt;div&gt;({ data: auditRecords, filename: &quot;audit_backup_2026_S2.tar.gz&quot; })&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5183" y="3" as="geometry">
+            <mxPoint x="108" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-93" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.087;entryY=0.966;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.099;exitY=0.46;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Error: ENOSPC / StorageWriteError&amp;nbsp;&lt;div&gt;(Fallo al escribir/comprimir archivo de respaldo)&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0089" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3458.01" y="1089.1600000000003" as="sourcePoint" />
+            <mxPoint x="3042" y="1089.534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_NotificationService" vertex="1">
+          <mxGeometry height="40" width="168" x="3744" y="782" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="51" width="10" x="3459" y="1045" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-96" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3828" y="822" as="sourcePoint" />
+            <mxPoint x="3828" y="1297.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-97" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="9. Aborta eliminación por seguridad:&amp;nbsp;&lt;div&gt;preserva intactas las 45,210 filas originales en bitacora&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1803" y="3" as="geometry">
+            <mxPoint x="2" y="-2" as="offset" />
+            <Array as="points">
+              <mxPoint x="3092" y="1111" />
+              <mxPoint x="3092" y="1133" />
+            </Array>
+            <mxPoint x="3042" y="1111" as="sourcePoint" />
+            <mxPoint x="3042" y="1133" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-98" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.081;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.2395" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3043" y="1179.005" as="sourcePoint" />
+            <mxPoint x="3639.1900000000005" y="1179.546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-99" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-98" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="10. INSERT INTO log_sistema (event, error_code, details, created_at) VALUES&amp;nbsp;&lt;div&gt;(&#39;MAINTENANCE_ABORTED&#39;, &#39;BACKUP_WRITE_ERROR&#39;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&#39;Fallo al generar archivo comprimido. Purga cancelada por seguridad.&#39;, NOW());&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3808" y="3" as="geometry">
+            <mxPoint x="114" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-100" edge="1" parent="1" source="ND9U-nWoZP1KwnxcbCgr-82" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.087;entryY=0.966;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.225;exitY=0.971;exitDx=0;exitDy=0;exitPerimeter=0;" value="11. Confirma registro de error de auditoría técnica">
+          <mxGeometry relative="1" x="-0.1292" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3458.01" y="1215.0000000000002" as="sourcePoint" />
+            <mxPoint x="3042" y="1215.374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="51" width="10" x="3823" y="1239" as="geometry" />
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-102" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" x="-0.4187" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3041" y="1251.005" as="sourcePoint" />
+            <mxPoint x="3822" y="1252.7599999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-103" connectable="0" parent="ND9U-nWoZP1KwnxcbCgr-102" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="12. sendAdminAlert({ subject: &quot;Alerta Crítica: Fallo en respaldo semestral de auditoría&quot;, details:&lt;div&gt;&amp;nbsp;&quot;El almacenamiento falló al comprimir registros. No se eliminaron datos.&quot; })&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5263" y="3" as="geometry">
+            <mxPoint x="164" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ND9U-nWoZP1KwnxcbCgr-104" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.225;exitY=0.971;exitDx=0;exitDy=0;exitPerimeter=0;" value="13. Confirma despacho de correo de alerta a administradores">
+          <mxGeometry relative="1" x="0.0163" y="-6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3824" y="1284.63" as="sourcePoint" />
+            <mxPoint x="3044.09" y="1281.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
